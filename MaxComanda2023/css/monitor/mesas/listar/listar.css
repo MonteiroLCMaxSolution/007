@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.tables{
+    padding: 20px 0;
+    background-color: white;
+}
+
+section.tables div.section-title{
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+section.tables div.table-single{
+    position: relative;
+    text-align: center;
+    border: 10px solid white;
+    background-color: green;
+    padding: 30px;
+}
+
+section.tables div.edit-btn{
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(106, 177, 0);
+    border-radius: 50%;
+}
+
+section.tables div.edit-btn i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+section.tables div.table-single-title{
+    padding-bottom: 30px;
+}
+
+section.tables div.table-single-title h3{
+    font-weight: 600;
+    color: white;
+}
+
+
+section.tables div.table-single-content p{
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+}
+
+@media screen and (max-width: 650px){
+    section.tables div.table-single.w33{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section.tables div.table-single.w33{
+        width: 100%;
+        border: 30px solid white;
+    }
+}

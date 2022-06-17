@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MODAL FINALIZAR PEDIDO*/
+
+div.modal-confirm-order{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 999;
+    display: none;
+}
+
+div.modal-confirm-order div.modal-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+div.modal-confirm-order div.modal-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1280px;
+    padding: 40px 10px;
+    background-color: white;
+}
+
+div.modal-confirm-order div.modal-box div.modal-title{
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+div.modal-confirm-order div.modal-box div.modal-title h2{
+    font-size: 28px;
+ }
+
+div.modal-confirm-order div.modal-box-table{
+    max-height: 300px;
+    overflow-y: auto;
+ }
+
+div.modal-confirm-order div.modal-box table{
+    width: 100%;
+    text-align: center;
+}
+
+div.modal-confirm-order div.modal-box table th{
+   padding: 10px 5px;
+}
+
+div.modal-confirm-order div.modal-box table td{
+    padding: 15px 5px;
+    font-weight: 500;
+}
+
+div.modal-confirm-order div.modal-box table td i{
+    color: #bb0000;
+    cursor: pointer;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box{
+    padding: 60px 10px 0 10px;
+    text-align: right;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box a{
+    padding: 10px 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box a.cancel-btn{
+    color: black;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box a.cancel-btn:hover{
+    color: #bb0000;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box a.confirm-btn{
+    background-color: green;
+}
+
+div.modal-confirm-order div.modal-box div.btn-box a.confirm-btn:hover{
+    background-color: #01b101;
+}
+
+/*MODAL ADD PRODUCT*/
+
+div.modal-add-product{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+div.modal-add-product div.modal-overlay{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.modal-add-product div.modal-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+div.modal-add-product div.modal-box div.modal-title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div.modal-add-product div.modal-box form{
+    padding: 20px 0;
+}
+
+div.modal-add-product div.modal-box form div.quantidade-box{
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.modal-add-product div.modal-box form div.quantidade-box input{
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    outline: none;
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+    border-color: #1b1b1b;
+}
+
+div.modal-add-product div.modal-box form div.quantidade-box div.quantidade-button{
+    padding: 8px;
+    border: 0;
+    font-size: 16px;
+    color: #1b1b1b;
+    cursor: pointer;   
+    user-select: none;
+    font-weight: bold;
+}
+
+div.modal-add-product div.modal-box form div.quantidade-box div.quantidade-button.qnt-l{
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #1b1b1b;
+}
+
+div.modal-add-product div.modal-box form div.quantidade-box div.quantidade-button.qnt-r{
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-color: #1b1b1b;
+}
+
+div.modal-add-product div.modal-box form div.inp-single p{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+div.modal-add-product div.modal-box form div.inp-single > input{
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 16px;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container{
+    padding: 30px 0;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container-title{
+    padding-bottom: 10px;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container-title h2{
+   font-size: 20px;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container-title h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container label{
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+div.modal-add-product div.modal-box form div.checkbox-container label input{
+    position: relative;
+    top: 2px;
+}
+
+div.modal-add-product div.modal-box form div.btn-box{
+    padding-top: 30px;
+    text-align: right;
+}
+
+div.modal-add-product div.modal-box form div.btn-box a{
+    color: black;
+    padding: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+}
+
+div.modal-add-product div.modal-box form div.btn-box a:hover{
+    color: rgb(214, 0, 0);
+}
+
+div.modal-add-product div.modal-box form div.btn-box button{
+    font-size: 18px;
+    padding: 15px;
+    background-color: #008d00;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+div.modal-add-product div.modal-box form div.btn-box button:hover{
+    background-color: #017501;
+}
+
+section.table{
+    padding: 20px 0;
+}
+
+section.table div.section-title{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+section.table div.section-title h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+section.table div.section-title h3{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+section.table div.inp-single{
+    padding: 0 10px;
+}
+
+/*INFOS TABLE*/
+
+section.table div.infos-table{
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+section.table div.infos-table div.inp-single p{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+section.table div.infos-table div.inp-single input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/*BOX PRODUCTS*/
+
+section.table div.box-products{
+    background-color: white;
+    padding: 20px 0;
+    display: none;
+}
+
+section.table div.product-single{
+    border: 10px solid white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+section.table div.product-single:hover{
+    transform: scale(.9);
+}
+
+section.table div.product-single-img{
+    text-align: center;
+    border: 2px solid black;
+}
+
+section.table div.product-single img{
+    max-width: 100%;
+    max-height: 150px;
+    text-align: center;
+}
+
+section.table div.product-single-content{
+    background-color: black;
+    padding: 10px;
+}
+
+section.table div.product-single-title h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section.table div.product-single-price h3{
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*BOX CATEGORIES*/
+
+section.table div.box-categories{
+    padding: 20px 0;
+    background-color: white;
+}
+
+section.table div.categorie-single{
+    padding: 10px;
+    background-color: #ffc400;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+section.table div.categorie-single h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+/*BTN BOX*/
+
+section.table div.btn-box{
+    background-color: white;
+    padding: 20px 10px 40px 10px;
+}
+
+section.table div.btn-box a{
+    padding: 15px 20px;
+    font-weight: 500;
+    background-color: #01b101;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+section.table div.btn-box a:hover{
+    background-color: #008d00;
+}
+
+/*PRODUCTS INFOS*/
+
+section.table div.product-infos{
+    background-color: #004666;
+    padding: 20px;
+    display: none;
+}
+
+section.table div.product-infos-title{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+section.table div.product-infos-title h2{
+    color: white;
+    font-weight: 600;
+}
+
+section.table div.product-infos div.inp-box{
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+section.table div.product-infos div.inp-single p{
+   color: #ffc400;
+   font-weight: 600;
+   padding-bottom: 10px;
+
+}
+
+section.table div.product-infos div.inp-single input{
+   width: 100%;
+   padding: 10px;
+   font-size: 16px;
+   border: 0;
+   outline: none;
+}
+
+section.table div.product-infos-content{
+    padding: 20px 10px;
+}
+
+section.table div.product-infos-content h3{
+    font-size: 24px;
+    color: white;
+}
+
+section.table div.product-infos-content b{
+    color: #ffc400;
+}
+
+section.table div.product-infos div.btn-box{
+    padding: 20px 10px;
+    text-align: right;
+}
+
+section.table div.product-infos div.btn-box a{
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+section.table div.product-infos div.btn-box a.cancel-btn:hover{
+    color: #eb0000;
+}
+
+section.table div.product-infos div.btn-box a.confirm-btn{
+    background-color: green;
+}
+
+section.table div.product-infos div.btn-box a.confirm-btn:hover{
+    background-color: rgb(1, 177, 1);
+}
+
+/*TABELA*/
+
+section.table table{
+    text-align: center;
+    background-color: white;
+}
+
+section.table table thead tr{
+    background-color: #003852;
+} 
+
+section.table table thead th{
+    font-size: 14px;
+    padding: 10px 5px;
+    color: white;
+}
+
+section.table table tbody td{
+    font-size: 14px;
+    padding: 15px 5px;
+}
+
+section.table table tbody td i{
+    color: rgb(212, 3, 3);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px){
+
+    section.table div.product-single.w25{
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    div.modal-add-product div.modal-box form div.inp-single.w50,
+    div.modal-add-product div.modal-box form div.checkbox-container.w50{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    div.modal-add-product div.modal-box form div.total-price-modal{
+        padding-top: 20px;
+    }
+
+    section.table div.section-title{
+        padding-bottom: 20px;
+    }
+
+    section.table div.section-title h2{
+        font-size: 22px;
+    }
+
+    section.table div.section-title h3{
+        font-size: 18px;
+    }
+
+    section.table div.categorie-single.w25{
+        width: 33.3%;
+    }
+
+}/*768*/
+
+@media screen and (max-width: 650px){
+
+    div.modal-confirm-order div.modal-box div.modal-title h2{
+        font-size: 22px;
+    }
+
+    section.table div.product-infos-title h2{
+        font-size: 20px;
+    }
+
+    section.table div.product-infos div.inp-single.w50{
+        width: 100%;
+        padding: 10px;
+    }
+
+    section.table div.product-infos-content h3{
+        font-size: 20px;
+    }
+
+    section.table div.product-single.w25{
+        width: 50%;
+    }
+
+    section.table div.categorie-single.w25{
+        width: 50%;
+    }
+
+    section.table div.categorie-single h2{
+        font-size: 16px;
+    }
+
+    section.table div.btn-box{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    section.table div.btn-box a.float-r{
+        display: inline-block;
+        float: none;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+    section.table div.inp-single.w33{
+        width: 100%;
+        padding: 10px;
+    }
+    section.table table thead th{
+        font-size: 12px;
+        padding: 10px 5px;
+        color: white;
+    }
+    
+    section.table table tbody td{
+        font-size: 12px;
+    }
+
+    section.table div.modal-confirm-order div.modal-box div.modal-title h2{
+        font-size: 20px;
+    }
+}/*500*/
+
+@media screen and (max-width: 450px){
+
+    section.table div.product-infos div.inp-single p{
+        text-align: center;
+    }
+
+    section.table div.product-infos-content{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    section.table div.product-infos div.btn-box{
+        text-align: center;
+    }
+
+    section.table div.product-single.w25{
+        width: 100%;
+    }
+
+    section.table table thead th{
+        font-size: 10px;
+    }
+    
+    section.table table tbody td{
+        font-size: 10px;
+    }
+
+    section.table div.modal-confirm-order div.modal-box{
+        width: 90%;
+    }
+
+    section.table div.modal-confirm-order div.modal-box div.btn-box a{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+

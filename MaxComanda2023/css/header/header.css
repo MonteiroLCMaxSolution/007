@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    background-color: #003852;
+    padding: 10px 22px;
+}
+
+header div.header-logo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+header div.header-logo img{
+    width: 120px;
+    max-width: 120px;
+    margin-left: -60px;
+}
+
+header div.logout-header-icon i,
+header div.dashboard-icon i{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header div.logout-header-icon i:hover,
+header div.dashboard-icon i:hover{
+    color: #ffc400;
+}
+
+@media screen and (max-width: 950px){
+    header div.dashboard-icon{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 650px){
+    header div.header-logo img{
+        width: 100px;
+        max-width: 100px;
+        margin-left: -50px;
+    }
+    
+    header div.logout-header-icon i,
+    header div.dashboard-icon i{
+        top: 13px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px){
+        
+    header div.logout-header-icon i,
+    header div.dashboard-icon i{
+        top: 18px;
+        font-size: 20px;
+    }
+}

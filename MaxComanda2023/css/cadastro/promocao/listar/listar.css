@@ -1,0 +1,222 @@
+section.list{
+    padding: 20px 0;
+}
+
+section.list div.section-title{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+section.list div.section-title h2{
+    color: rgb(51, 51, 51);
+}
+
+section.list form{
+    background-color: white;
+    padding: 20px;
+}
+
+section.list form select{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+section.list form select option:hover{
+    background-color: #ccc !important;
+}
+
+section.list form div.date-inputs-box{
+    padding: 30px 0;
+    text-align: center;
+}
+
+section.list form div.date-input-single p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+section.list form div.date-input-single input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+section.list form button,
+section.list form a{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+section.list form button.search-btn{
+    background-color: #004666;
+}
+
+section.list form button.search-btn:hover{
+    background-color: #002f44;
+}
+
+section.list form a.new-btn{
+    background-color: #ffc400;
+    margin-right: 0;
+}
+
+section.list form a.new-btn:hover{
+    background-color: #e6b002;
+}
+
+section.list table{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 60px 20px 40px 20px;
+}
+
+section.list table thead{
+    background-color: #004666;
+}
+
+section.list table th{
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+section.list table td{
+    padding: 10px;
+    font-size: 14px;
+}
+
+section.list table td i{
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+section.list table td i.i-edit{
+    color: green;
+}
+
+section.list table td i.i-lock{
+    color: #e6b002;
+}
+
+@media screen and (max-width: 650px){
+
+    section.list form input{
+        font-size: 16px;
+    }
+
+    section.list form button,
+    section.list form a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    section.list table th{
+        padding: 8px;
+        font-weight: 500;
+    }
+    
+    section.list table td{
+        padding: 8px;
+    }
+    
+    section.list table td i{
+        padding: 8px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 520px){
+
+    section.list form div.date-input-single.w50{
+        width: 100%;
+    }
+
+    section.list form div.date-input-single.w50:first-of-type{
+        padding-bottom: 30px;
+    }
+
+    section.list table th{
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    section.list table td{
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    section.list table td i{
+        padding: 8px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    section.list div.section-title h2{
+        font-size: 20px;
+    }
+
+    section.list form input{
+        font-size: 14px;
+    }
+
+    section.list form button,
+    section.list form a{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    section.list table{
+        padding: 40px 2%;
+    }
+
+    section.list table th{
+        padding: 5px;
+        font-size: 9px;
+    }
+    
+    section.list table td{
+        padding: 5px;
+        font-size: 9px;
+    }
+    
+    section.list table td i{
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 330px){
+
+    section.list table th{
+        font-size: 8px;
+    }
+    
+    section.list table td{
+        font-size: 8px;
+    }
+    
+}
+
+
+

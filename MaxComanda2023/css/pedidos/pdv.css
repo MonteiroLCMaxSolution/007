@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montesserat';
+}
+
+/*MODAL*/
+
+div.pdv-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+div.pdv-modal-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+div.pdv-modal-box{
+    width: 80%;
+    padding: 40px 40px 20px 40px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+}
+
+div.pdv-modal-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+div.pdv-modal-title h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-title h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-title h1 > b{
+    color: #ddaa01;
+}
+
+div.pdv-modal-form{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+div.pdv-modal-form form div.inp-single{
+    padding: 10px;
+}
+
+div.pdv-modal-form form div.inp-single p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.pdv-modal-form form div.inp-single input,
+div.pdv-modal-form form div.inp-single select{
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.pdv-modal-form form div.checkbox-container{
+    padding: 20px 10px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title{
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title h2{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+div.pdv-modal-form form div.checkbox-container-content label{
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+div.pdv-modal-box div.btn-box{
+    padding: 60px 10px 10px 10px;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single{
+    text-align: center;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single a{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: .3s;
+
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-cancel a{
+    text-align: left;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-cancel a:hover{
+    color: #c40000;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-report a:hover,
+div.pdv-modal-box div.btn-box div.btn-single.btn-remove-item a:hover{
+    color: #0070a3;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-confirm a{
+    text-align: right;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-confirm a:hover{
+    color: rgb(0, 167, 0);
+}
+
+/*FIM DO MODAL*/
+
+/*SECTION*/
+
+
+@media screen and (max-width: 768px){
+    div.pdv-modal-form form div.checkbox-container.w50{
+        width: 100%;
+        text-align: center;
+    }
+
+}/*768*/
+
+@media screen and (max-width: 650px){
+    div.pdv-modal-box{
+        padding: 20px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-title h2{
+        font-size: 18px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-title h3{
+        font-size: 16px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-content label{
+        font-size: 14px;
+    }
+
+    div.pdv-modal-box div.btn-box div.btn-single a{
+        font-size: 14px;
+    }
+}/*650*/
+
+@media screen and (max-width: 600px){
+    div.pdv-modal-title h2 {
+        font-size: 24px;
+    }
+}/*600*/
+
+@media screen and (max-width: 500px){
+
+    div.pdv-modal-form form div.inp-single.w50{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    div.pdv-modal-title h2 {
+        font-size: 22px;
+    }
+
+    div.pdv-modal-title h1 {
+        font-size: 20px;
+    }
+
+    div.pdv-modal-box div.btn-box div.btn-single a{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

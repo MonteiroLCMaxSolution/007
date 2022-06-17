@@ -1,0 +1,159 @@
+
+section.register-form div.section-title{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+section.register-form div.section-title h1{
+    font-size: 28px;
+}
+
+section.register-form form{
+    background-color: white;
+    padding: 20px;
+}
+
+section.register-form form div.form-title{
+    padding: 40px 0 50px 0;
+    text-align: center;
+}
+
+section.register-form form div.form-title h2{
+    font-size: 22px;
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+section.register-form form div.inp-single{
+    padding: 10px;
+}
+
+section.register-form form div.inp-single p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+section.register-form form div.inp-single input,
+section.register-form form div.inp-single select{
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+section.register-form form div.btn-box{
+    padding: 60px 10px 20px 10px;
+    text-align: right;
+}
+
+section.register-form form div.btn-box button,
+section.register-form form div.btn-box a{
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0;
+    background-color: #005881;
+    color: white;
+    transition: .3s;
+}
+
+section.register-form form div.btn-box button:hover{
+    background-color: #0079b1;
+}
+
+section.register-form form div.btn-box a{
+    background-color: transparent;
+    color: #0c0c0c;
+}
+
+section.register-form form div.btn-box a:hover{
+    color: #d60202;
+}
+
+section.register-form div.register-infos{
+    padding: 20px 0px;
+    background-color: white;
+}
+
+section.register-form div.register-info-single{
+    padding: 10px;
+}
+
+section.register-form div.register-info-single p{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+section.register-form div.register-info-single input{
+    border: 0;
+    background-color: white;
+}
+
+@media screen and (max-width: 1080px){
+    section.register-form div.register-info-single.w20{
+        width: 33.3%;
+    } 
+}/*1080*/
+
+@media screen and (max-width: 768px){
+    section.register-form form div.inp-single.w40,
+    section.register-form form div.inp-single.w33,
+    section.register-form form div.inp-single.w30,
+    section.register-form form div.inp-single.w20{
+        width: 50%;
+    }
+}/*768*/
+
+@media screen and (max-width: 600px){
+    section.register-form div.register-info-single.w20{
+        width: 50%;
+    }
+    
+}/*600*/
+
+@media screen and (max-width: 450px){
+
+    div.page-title h1 {
+        font-size: 22px;
+    }
+
+    section.register-form form div.form-title h2{
+        font-size: 18px;
+    }
+
+    section.register-form form div.inp-single.w50,
+    section.register-form form div.inp-single.w40,
+    section.register-form form div.inp-single.w33,
+    section.register-form form div.inp-single.w30,
+    section.register-form form div.inp-single.w20{
+        width: 100%;
+    }
+
+    section.register-form form div.btn-box{
+        text-align: center;
+    }
+
+    section.register-form form div.btn-box button,
+    section.register-form form div.btn-box a{
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    section.register-form div.register-infos{
+        text-align: center;
+    }
+    section.register-form div.register-info-single.w20{
+        width: 100%;
+    }
+
+    section.register-form div.register-info-single input{
+        text-align: center;
+    }
+    
+}/*450*/

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.requests{
+    padding: 20px;
+}
+
+section.requests div.section-title{
+    padding: 20px 0;
+    text-align: center;
+    background-color: white;
+}
+
+section.requests div.requests-box{
+    text-align: center;
+}
+
+section.requests div.request-single{
+    margin: 30px 0;
+}
+
+section.requests div.request-single div.request-single-title{
+    padding: 20px 0 30px 0;
+    background-color: white;
+
+}
+
+section.requests div.request-single div.request-single-title h2{
+    font-weight: 500;
+    
+}
+
+section.requests div.request-single table{
+    text-align: center;
+    background-color: white;
+}
+
+section.requests div.request-single table thead tr{
+    background-color: #004666;
+}
+
+section.requests div.request-single table th{
+    padding: 10px 5px;
+    color: white;
+}
+
+section.requests div.request-single table td{
+    padding: 15px 5px;
+}
+
+section.requests div.request-single table td button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0;
+    background-color: green;
+    cursor: pointer;
+}
+
+section.requests div.request-single table td button i{
+    color: white;
+}
+
+@media screen and (max-width: 550px){
+    section.requests div.request-single table th,
+    section.requests div.request-single table td{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    section.requests div.request-single table th,
+    section.requests div.request-single table td{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    section.requests div.section-title h2,
+    section.requests div.request-single div.request-single-title h2{
+        font-size: 20px;
+    }
+
+    section.requests div.request-single table th,
+    section.requests div.request-single table td{
+        font-size: 10px;
+    }
+
+    section.requests div.request-single table td button{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 380px){
+    section.requests div.request-single table th,
+    section.requests div.request-single table td{
+        font-size: 8px;
+    }
+}

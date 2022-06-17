@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MODAL*/
+
+div.details-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+div.details-modal-overlay{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 100%;
+    height: 100%;
+}
+
+div.details-modal-box{
+    width: 95%;
+    padding: 40px 40px 20px 40px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+div.details-modal-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+div.details-modal-title h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+div.details-modal-title h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+div.details-modal-title h3 > b,
+div.details-modal-title h2 > b{
+    color: #ddaa01;
+}
+
+div.details-modal-table{
+    overflow-x: auto;
+}
+
+div.details-modal-table table{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+div.details-modal-table table thead tr{
+    background-color: #003852;
+}
+
+div.details-modal-table table th{
+    color: white;
+    padding: 10px 5px;
+}
+
+div.details-modal-table table td{
+    padding: 15px 5px;
+    font-weight: 500;
+}
+
+div.details-modal-table-infos{
+    padding-bottom: 20px;
+}
+
+div.details-modal-table-infos div.total-pedido h2,
+div.details-modal-table-infos div.desconto-caixa h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+div.details-modal-table-infos h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+div.details-modal-table-infos h2 > b{
+    color: #ddaa01;
+}
+
+div.details-modal div.btn-single{
+    text-align: right;
+}
+
+div.details-modal div.btn-single a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: .3s;
+}
+
+div.details-modal div.btn-single a:hover{
+    color: #c90000;
+}
+
+section.details{
+    padding: 20px 0;
+}
+
+#table-pagamento-pedidos,
+#box-totais-pedidos{
+    display: none;
+}
+
+section.details div.section-title{
+    text-align: center;
+    background-color: white;
+    padding: 20px 10px 40px 10px;
+}
+
+section.details div.details-infos{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section.details div.details-infos ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+section.details div.details-infos li{
+    padding: 10px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+section.details div.details-infos li > b{
+    color: #e6b000;
+}
+
+section.details div.detail-single-title.flexbox{
+    padding: 20px;
+    flex-wrap: nowrap;
+    background-color: red;
+    cursor: pointer;
+}
+
+section.details div.detail-single-title.payment-title{
+    background-color: #003852;
+}
+
+section.details div.detail-single-title.total-title{
+    background-color: green;
+}
+
+section.details div.detail-single-title i{
+    padding-right: 20px;
+    font-size: 22px;
+    color: #e6b000;
+}
+
+section.details div.detail-single-title h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+section.details div.detail-single-table{
+    padding: 20px 10px;
+    background-color: white;
+    overflow-x: auto;
+}
+
+section.details div.detail-single-table table{
+    width: 100%;
+    text-align: center;
+}
+
+section.details div.detail-single-table table thead tr{
+    background-color: #003852;
+}
+
+section.details div.detail-single-table table th{
+    padding: 10px 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+section.details div.detail-single-table table td{
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section.details div.detail-single-table table th.total,
+section.details div.detail-single-table table td.total{
+    background-color: #43758b;
+    font-weight: 600;
+    color: white;
+}
+
+section.details div.detail-single-table table td.total-option{
+    font-weight: 600;
+    background-color: #295264;
+    color: white;
+}
+
+section.details div.detail-single-table table td.total-master{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #123747;
+    color: white;
+}
+
+section.details div.detail-single-table table td i{
+    color: blue;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+section.details div.detail-single-box{
+    padding: 20px 10px;
+    background-color: white;
+}
+
+section.details div.detail-single-box-single{
+    padding: 20px;
+    background-color: #003500;
+    text-align: center;
+}
+
+section.details div.detail-single-box-single-title{
+    padding-bottom: 20px;
+}
+
+section.details div.detail-single-box-single-title h2{
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+section.details div.detail-single-box-single-title h3{
+    color: #e6b000;
+    font-size: 18px;
+}
+
+section.details div.detail-single-box-single-content ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+}
+
+section.details div.detail-single-box-single-content li{
+    padding: 5px 0;
+    font-weight: 500;
+    color: white;
+}
+
+@media screen and (max-width: 1050px){
+    section.details div.detail-single-table table th,
+    section.details div.detail-single-table table td{
+        font-size: 12px;
+    }
+    section.details div.detail-single-table table td.total-master{
+        font-size: 16px;
+    }
+}/*1050*/
+
+@media screen and (max-width: 950px){
+
+    div.details-modal-table table th,
+    div.details-modal-table table td{
+        font-size: 14px;
+    }
+
+}/*950*/
+
+@media screen and (max-width: 750px){
+
+    div.details-modal-table table th,
+    div.details-modal-table table td{
+        font-size: 12px;
+    }
+
+    section.details div.details-infos li{
+        font-size: 14px;
+    }
+}/*750*/
+
+@media screen and (max-width: 650px){
+    
+    div.details-modal-title h2{
+        font-size: 20px;
+    }
+    
+    div.details-modal-title h3{
+        font-size:16px;
+    }
+
+    div.details-modal-table-infos div.total-pedido h2,
+    div.details-modal-table-infos div.desconto-caixa h2{
+        font-size: 16px;
+    }
+
+    div.details-modal-table-infos h2{
+        font-size: 20px;
+    }
+
+    section.details div.detail-single-box-single-title h2{
+        font-size: 18px;
+    }
+
+    section.details div.detail-single-box-single-title h3{
+        font-size: 16px;
+    }
+
+    section.details div.detail-single-box-single-content li{
+        font-size: 14px;
+    }
+}/*650*/
+
+@media screen and (max-width: 500px){
+
+    section.details div.section-title{
+        padding-bottom: 20px;
+    }
+
+    section.details div.section-title h2{
+        font-size: 20px;
+    }
+
+    section.details div.detail-single-box-single.w50{
+        width: 100%;
+    }
+    
+    section.details div.detail-single-title i{
+        font-size: 18px;
+    }
+
+    section.details div.detail-single-title h2{
+        font-size: 16px;
+    }
+
+    section.details div.detail-single-table table th,
+    section.details div.detail-single-table table td{
+        font-size: 10px;
+    }
+    section.details div.detail-single-table table td.total-master{
+        font-size: 12px;
+    }
+}/*500*/
+
+@media screen and (max-width: 450px){
+
+    div.details-modal-title h2{
+        font-size: 18px;
+    }
+    
+    div.details-modal-title h3{
+        font-size:14px;
+    }
+
+    div.details-modal-table table th,
+    div.details-modal-table table td{
+        font-size: 10px;
+    }
+
+    div.details-modal-table-infos div.total-pedido h2,
+    div.details-modal-table-infos div.desconto-caixa h2{
+        font-size: 12px;
+    }
+
+    div.details-modal-table-infos h2{
+        font-size: 14px;
+    }
+
+}/*450*/

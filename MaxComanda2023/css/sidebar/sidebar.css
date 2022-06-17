@@ -1,0 +1,184 @@
+aside{
+    width: 300px;
+    min-height: 100vh;
+    background-color: #004666;
+    display: none;
+}
+
+aside div.dashboard-close-icon{
+    text-align: right;
+    padding: 20px 20px 0 20px;
+}
+
+aside div.dashboard-close-icon i{
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+aside div.dashboard-user-box{
+    padding: 20px;
+}
+
+aside div.dashboard-user-img{
+    width: 30%;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blueviolet;
+}
+
+aside div.dashboard-user-infos{
+    position: relative;
+    width: 70%;
+    padding-left: 20px;
+}
+
+aside div.dashboard-user-infos-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}   
+
+aside div.dashboard-user-name{
+    padding-bottom: 5px;
+}
+
+aside div.dashboard-user-name h2{
+    font-size: 20px;
+    color: white;
+}
+
+aside div.dashboard-user-email h3{
+    font-size: 12px;
+    color: #c9c9c9;
+    font-weight: 300;
+}
+
+aside div.dashboard-container{
+    padding: 20px 0;
+    overflow-y: auto;
+}
+
+
+aside div.dashboard-box-title{
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+aside div.dashboard-box-title-content i{
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    transition: .3s;
+}
+
+aside div.dashboard-box-title-content h2,
+aside div.dashboard-box-title-content a{
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside div.dashboard-box-title-arrow i{
+    position: relative;
+    top: 2px;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+
+aside div.dashboard-box-itens{
+    display: none;
+}
+
+aside div.dashboard-box-item-single a{
+    display: block;
+    padding: 15px 30px;
+    color: white;  
+    text-decoration: none;
+    transition: .2s;
+}
+
+@media screen and (max-width: 950px){
+    aside{
+        width: 100%;
+        display: none;
+    }
+
+    aside div.dashboard-user-name h2{
+        font-size: 30px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    aside div.dashboard-user-name h2{
+        font-size: 25px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    aside div.dashboard-user-name h2{
+        font-size: 20px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    aside div.dashboard-user-name h2{
+        font-size: 18px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 12px;
+    }
+
+    aside div.dashboard-box-title-content i{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-box-title-content h2{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-box-title-arrow i{
+        top: 2px;
+        font-size: 16px;
+    }
+
+    aside div.dashboard-box-item-single a {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    aside div.dashboard-user-name h2{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
