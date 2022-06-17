@@ -1,0 +1,76 @@
+section.home{
+    padding: 20px;
+}
+
+div.home-box{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+div.home-title h2{
+    font-weight: 500;
+    color: #7f7f7f;
+    padding-bottom: 15px;
+}
+
+div.home-title p{
+    color: #9e9e9e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a.home-categorie-single{
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #ffc400;
+    transition: .3s;
+}
+
+@media screen and (max-width: 580px){
+    div.home-title h2{
+        font-size: 20px;
+    }
+    
+    div.home-title p{
+        font-size: 14px;
+    }
+
+    a.home-categorie-single{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    div.home-title h2{
+        font-size: 18px;
+    }
+    
+    div.home-title p{
+        font-size: 12px;
+    }
+
+    a.home-categorie-single{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    div.home-title h2{
+        font-size: 16px;
+    }
+    
+    div.home-title p{
+        font-size: 12px;
+    }
+}
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.permissions{
+    padding: 20px 0;
+}
+
+section.permissions div.section-title{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+section.permissions table{
+    text-align: center;
+    background-color: white;
+}
+
+section.permissions table thead tr{
+    background-color: #004666;
+}
+
+section.permissions table th{
+    padding: 10px 5px;
+    color: white;
+}
+
+section.permissions table td{
+    padding: 15px 5px;
+}
+
+section.permissions table td button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0;
+    background-color: green;
+    cursor: pointer;
+}
+
+section.permissions table td button i{
+    color: white;
+}
+
+section.permissions div.return-btn a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ebb400;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+section.permissions div.return-btn a:hover{
+    background-color: #fcc100;
+}
+
+@media screen and (max-width: 768px){
+    section.permissions table th,
+    section.permissions table td{
+        font-size: 14px;
+    }
+    
+}/*768*/
+
+@media screen and (max-width: 500px){
+
+    section.permissions div.section-title h2{
+        font-size: 20px;
+    }
+
+    section.permissions table th,
+    section.permissions table td{
+        font-size: 12px;
+    }
+
+}/*500*/
+
+@media screen and (max-width: 420px){
+
+    section.permissions div.section-title h2{
+        font-size: 18px;
+    }
+
+    section.permissions table th,
+    section.permissions table td{
+        font-size: 10px;
+    }
+
+    section.permissions table td button{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 0;
+        background-color: green;
+        cursor: pointer;
+    }
+
+}/*420*/
+
+@media screen and (max-width: 380px){
+    section.permissions table th,
+    section.permissions table td{
+        font-size: 8px;
+    }
+}

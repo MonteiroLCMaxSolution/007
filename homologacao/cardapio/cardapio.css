@@ -1,0 +1,1424 @@
+html, body{
+    --cor-fonte: #1c1c1c;
+    --cor-principal: #c90000;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar-track {
+    width: 10px;     
+      
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1c1c1c;    
+}
+
+/*Welcome Modal*/
+
+div.welcome-modal{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url(../images/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.welcome-modal-content{
+    padding: 40px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+div.welcome-modal-home{
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+div.welcome-modal-title{
+    text-align: center;
+}
+
+div.welcome-modal-title h1{
+    color: var(--cor-principal);
+}
+
+div.welcome-modal-title h3{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 450px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.welcome-modal-home-box{
+    padding-top: 50px;
+}
+
+div.welcome-modal-home-single{
+    text-align: center;
+    background-color: var(--cor-principal);
+    border: 10px solid white;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+div.welcome-modal-home-single h2{
+    color: white;
+    font-weight: 600;
+}
+
+div.welcome-modal-withdraw{
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+div.welcome-modal-back{
+    padding-bottom: 10px;
+}
+
+div.welcome-modal-back a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div.welcome-modal-title h2{
+    color: var(--cor-principal);
+    padding-bottom: 10px;
+}
+
+div.welcome-modal-title h4{
+    color: var(--cor-fonte);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+div.welcome-modal-withdraw-form div.inp-single p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.welcome-modal-withdraw-form div.inp-single select{
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+div.welcome-modal-withdraw-form div.btn-single{
+    padding-top: 40px;
+    text-align: right;
+}
+
+div.welcome-modal-withdraw-form div.btn-single a{
+    background-color: var(--cor-principal);
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+div.welcome-modal-delivery{
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+div.welcome-modal-delivery div.welcome-modal-back{
+    padding:0 10px 10px 10px;
+}
+
+div.welcome-modal-delivery-form div.inp-single{
+    padding: 0 10px 10px 10px;
+}
+
+div.welcome-modal-delivery-form div.inp-single p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.welcome-modal-delivery-form div.inp-single input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.welcome-modal-delivery-form div.btn-box{
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.welcome-modal-delivery-form div.btn-box a{
+    display: inline-block;
+    background-color: var(--cor-principal);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Fim do Welcome Modal*/
+
+/*Cart Modal*/
+
+div.cart-modal{
+    display: none;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    padding: 20px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+div.cart-modal div.close-modal{
+    text-align: right;
+}
+
+div.cart-modal div.close-modal i{
+    display: inline-block;
+    font-size: 25px;
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div.cart-modal-title{
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+div.cart-modal-title h2{
+    font-size: 30px;
+}
+
+div.cart-modal-title h2 > i{
+    color: var(--cor-principal);
+}
+
+div.cart-modal-table{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+div.cart-modal-table table{
+    width: 100%;
+}
+
+div.cart-modal-table table thead tr{
+    padding: 10px 5px;
+}
+
+div.cart-modal-table table th{
+    color: var(--cor-fonte);
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+div.cart-modal-table table td{
+    font-weight: 500;
+    text-align: center;
+    color: var(--cor-fonte);
+    padding: 15px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.cart-modal-table table td i{
+    padding: 10px;
+    color: white;
+    background-color: var(--cor-principal);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.cart-modal-quantity-box{
+    text-align: center;
+    justify-content: center;
+}
+
+div.cart-modal-quantity-box div.quantity-btn{
+    background-color: var(--cor-principal);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+div.cart-modal-quantity-box input{
+    text-align: center;
+    padding: 0 5px;
+    outline: none;
+    border: 0;
+    border-top: 2px solid var(--cor-principal);
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+div.cart-modal-total{
+    padding: 40px 0 10px 0;
+    text-align: center;
+}
+
+div.cart-modal-total h2{
+    font-weight: 600;
+}
+
+div.cart-modal-total h2 > b{
+    color: var(--cor-principal);
+}
+
+div.cart-modal-confirm{
+    margin-top: 20px;
+    text-align: center;
+    height: 60px;
+}
+
+div.cart-modal-confirm a{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 10px;
+    border: 0;
+    color: white;
+    background-color: var(--cor-principal);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*Fim do Cart modal*/
+
+/*Product Modal*/
+
+div.product-modal{
+    display: none;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    max-height: 100vh;
+    background-color: white;
+}
+
+div.product-modal div.close-modal{
+    padding: 20px 20px 20px 0;
+    height: 60px;
+    text-align: right;
+}
+
+div.product-modal div.close-modal i{
+    font-size: 25px;
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div.product-modal-img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    max-height: 100vh;
+}
+
+div.product-modal-content{
+    padding: 20px 20px 0 20px;
+    position: relative;
+    max-height: 100vh;
+}
+
+div.product-modal-main{
+    max-height: calc(100vh - 140px);
+    overflow: auto;
+    padding-right: 20px;
+}
+
+div.product-modal-infos{
+    padding-bottom: 20px;
+}
+
+div.product-modal-infos div.product-modal-title h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+div.product-modal-infos div.product-modal-price h3{
+    font-size: 22px;
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+div.product-modal-title-single{
+    padding: 20px 0;
+    border-top: 2px solid #ccc;
+}
+
+div.product-modal-title-single h2{
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
+
+div.product-modal-title-single h3{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.product-modal-quantity{
+    padding-bottom: 20px;
+}
+
+/* div.product-modal-quantity-box{
+    
+} */
+
+div.product-modal-quantity-box div.quantity-btn{
+    background-color: var(--cor-principal);
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+div.product-modal-quantity-box input{
+    text-align: center;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    border-top: 2px solid var(--cor-principal);
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+div.product-modal-flavor,
+div.product-modal-complements{
+    padding-bottom: 20px;
+}
+
+div.product-modal-flavor-box label,
+div.product-modal-complements-box label{
+    display: block;
+    margin-bottom: 15px;
+    font-weight:500;
+}
+
+.custom-check{
+    font-size: 12px;
+    color:var(--cor-principal);
+    border: 2px solid var(--cor-principal);
+    -webkitbox-shadow: inset 0px 0.1em 0.1em rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0.1em 0.1em rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0.1em 0.1em rgba(0,0,0,0.3);
+}
+
+div.product-modal-comments{
+    padding-bottom: 20px;
+}
+
+div.product-modal-comments textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.product-modal-add{
+    text-align: center;
+    height: 60px;
+}
+
+div.product-modal-btn-box{
+    justify-content: space-between;
+    max-height: 60px;
+}
+
+div.product-modal-btn-box button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--cor-principal);
+    border: 0;
+    outline: none;
+    max-height: 100px;
+    cursor: pointer;
+}
+
+div.product-modal-add button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--cor-principal);
+    border: 0;
+    outline: none;
+    max-height: 100px;
+    cursor: pointer;
+}
+
+/*Fim do Product modal*/
+
+/*Confirm modal*/
+
+div.confirm-modal{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.confirm-modal-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+div.confirm-modal-form{
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+div.confirm-modal-back{
+    padding: 0 10px 20px 10px;
+}
+
+div.confirm-modal-back a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div.confirm-modal-title{
+    padding: 0 10px 30px 10px;
+}
+
+div.confirm-modal-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.confirm-modal-form div.inp-single{
+    padding: 0 10px 10px 10px;
+}
+
+div.confirm-modal-form div.inp-single p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.confirm-modal-form div.inp-single input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.confirm-modal-form div.payment-container{
+    padding: 20px 10px 0 10px;
+}
+
+div.confirm-modal-form div.payment-title h2{
+    font-weight: 600;
+    color: var(--cor-fonte);
+    padding-bottom: 5px;
+}
+
+div.confirm-modal-form div.payment-total h3{
+    font-weight: 600;
+    color: var(--cor-fonte);
+    padding-bottom: 20px;
+}
+
+div.confirm-modal-form div.payment-total h3 > b{
+    color: var(--cor-principal)
+}
+
+div.confirm-modal-form div.payment-box label{
+    display: block;
+    padding-bottom: 10px;
+}
+
+div.confirm-modal-form div.payment-box label input{
+    cursor: pointer;
+}
+
+div.confirm-modal-form div.inp-money{
+    display: none;
+}
+
+div.confirm-modal-form div.inp-money p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.confirm-modal-form div.inp-money input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.confirm-modal-form div.btn-single{
+    padding: 40px 10px 0 10px;
+}
+
+div.confirm-modal-form div.btn-single a{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: var(--cor-principal);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div.confirm-modal-finish{
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    max-height: 90vh;
+    padding: 20px;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+div.confirm-modal-infos{
+    padding: 0 10px;
+}
+
+div.confirm-modal-infos-box{
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+div.confirm-modal-info-single{
+    padding-bottom: 5px;
+}
+
+div.confirm-modal-infos-title{
+    padding-bottom: 10px;
+}
+
+div.confirm-modal-infos-title h2{
+    font-size: 20px;
+    color: var(--cor-fonte);
+}
+
+div.confirm-modal-info-single h3{
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.confirm-modal-info-single h3 > b{
+    color: var(--cor-principal);
+}
+
+div.confirm-modal-finish div.btn-box{
+    padding: 20px 10px 0 10px;
+    justify-content: space-between;
+}
+
+div.confirm-modal-finish div.btn-box a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+div.confirm-modal-finish div.btn-box a#cancel-order{
+    background-color: #c00000;
+}
+
+div.confirm-modal-finish div.btn-box a#finish-order{
+    background-color: green;
+}
+
+/*Fim do confirm modal*/
+
+/*Finished modal*/
+
+div.finished-modal{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+div.finished-modal div.close-modal{
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+div.finished-modal div.close-modal a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div.finished-modal-title{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+div.finished-modal-title h2{
+    font-size: 32px;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-request{
+    padding-bottom: 20px;
+}
+
+div.finished-modal-request h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-request h2 b{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+div.finished-modal-payment-status{
+    padding-bottom: 40px;
+}
+
+div.finished-modal-payment-status h3{
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-payment-status h3 b{
+    color: var(--cor-principal);
+}
+
+div.finished-modal-address{
+    padding-bottom: 40px;
+}
+
+div.finished-modal-address h2{
+    padding-bottom: 10px;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-address h3{
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-address h4{
+    font-size: 18px;
+    color: var(--cor-fonte);
+}
+
+div.finished-modal-details{
+    padding-bottom: 40px;
+}
+
+div.finished-modal-details a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-principal);
+    color: white;
+    text-decoration: none;
+}
+
+div.finished-modal-items{
+    padding-bottom: 40px;
+}
+
+div.finished-modal-items h2{
+    padding-bottom: 20px;
+}
+
+div.finished-modal-table{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+div.finished-modal-items table{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.finished-modal-items table thead tr{
+    background-color: var(--cor-principal);
+}
+
+div.finished-modal-items table th{
+    color: white;
+    padding: 10px;
+}
+
+div.finished-modal-items table td{
+    color: var(--cor-fonte);
+    font-weight: 600;
+    padding: 15px 5px;
+}
+
+div.finished-modal-total h1{
+    font-weight: 600;
+    color: var(--cor-fonte);
+    padding-bottom: 20px;
+}   
+
+div.finished-modal-total h1 > b{
+    color: var(--cor-principal);
+}
+
+/*Fim do finished modal*/
+
+/*Header*/
+
+header{
+    background-image: url(../images/wallpaper.jpg);
+    padding: 10px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+header div.box-logo-header{
+    padding: 10px 0;
+}
+
+header div.logo-header{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+header div.infos-header{
+    text-align: right;
+    position: relative;
+}
+
+header div.infos-header-status{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    color: #9bf612;
+    border: 1px solid #9bf612;
+    user-select: none;
+}
+
+header div.infos-header-contact{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-align: right;
+}
+
+header div.whatsapp-contact,
+header div.phone-contact{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+header div.whatsapp-contact a,
+header div.phone-contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header div.whatsapp-contact i,
+header div.phone-contact i{
+    padding-right: 5px;
+}
+
+/*Fim do header*/
+
+/*Conteúdo principal da página*/
+
+main{
+    padding: 0 10px;
+    background-color: white;
+}
+
+main div.restaurant-name{
+    padding: 20px 10px;
+}
+
+main div.restaurant-name h2{
+    font-size: 30px;
+    color: var(--cor-fonte);
+    font-weight: 600;
+}
+
+main div.search-box.flexbox{
+    flex-wrap: nowrap;
+    padding: 0 10px 10px 10px;
+}
+
+main div.search-box input{
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+main div.search-box button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: .3s;
+}
+
+main div.search-box button:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+main div.categories-box{
+    padding: 0 10px 20px 10px;
+}
+
+main div.category-single{
+    margin-right: 10px;
+    margin-top: 10px;
+    user-select: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50px;
+    color: var(--cor-fonte);
+    cursor: pointer;
+    transition: .3s;
+}
+
+main div.category-single:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+main div.select-category{
+    padding: 20px 10px 60px 10px;
+}
+
+main div.select-category h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-fonte);
+}
+
+main div.products-container{
+    display: none;
+    padding: 10px 0;
+}
+
+main div.products-container-title{
+    text-align: center;
+}
+
+main div.products-container-title h2{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    color: var(--cor-principal);
+}
+
+main div.product-single{
+    position: relative;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+main div.product-single-content{
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 130px;
+    transition: .3s;
+}
+
+main div.product-single-content:hover{
+    border: 1px solid var(--cor-principal);
+}
+
+main div.product-single-img{
+    width: 100px;
+    position: relative;
+}
+
+main div.product-single-img img{
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main div.product-single-infos{
+    padding: 10px;
+}
+
+main div.product-single-title{
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-fonte);
+}
+
+main div.product-single-price{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-principal);
+}
+
+main div.product-single-price h3{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-fonte);
+}
+
+main div.address{
+    padding: 0 10px 20px 10px;
+}
+
+main div.adress-title{
+    padding: 20px 0;
+    text-align: center;
+}
+
+main div.adress-title h2{
+    font-size: 24px;
+    color: var(--cor-fonte);
+}
+main div.adress-title i{
+    color: var(--cor-principal);
+}
+
+div.cart-icon{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: var(--cor-principal);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.cart-icon-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.cart-icon-content div.cart-number{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+}
+
+div.cart-icon-content div.cart-number h3{
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+div.cart-icon-content i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+
+}
+
+footer{
+    background-color: var(--cor-principal);
+    padding: 15px 20px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 400;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    div.welcome-modal-home,
+    div.welcome-modal-delivery,
+    div.welcome-modal-withdraw{
+        width: 95%;
+    }
+
+    div.welcome-modal-home-single.w50{
+        width: 100%;
+    }
+
+    div.welcome-modal-delivery-form div.inp-single.w50{
+        width: 100%;
+    }
+
+    header > div.flexbox{
+        flex-direction: column-reverse;
+    }
+
+    header div.box-logo-header.w50,
+    header div.infos-header.w50{
+        width: 100%;
+    }
+
+    header div.infos-header-status{
+        margin-bottom: 20px;
+    }
+
+    header div.infos-header-contact{
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
+    header div.whatsapp-contact,
+    header div.phone-contact {
+        
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    main div.product-single.w50{
+        width: 100%;
+    }
+
+    div.product-modal{
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    div.product-modal div.close-modal{
+        height: auto;
+    }
+
+    div.product-modal-img {
+        height: 200px;
+    }
+
+    div.product-modal-content.w50{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    div.product-modal-main{
+        max-height: 999px;
+        overflow: hidden;
+        padding-right: 0;
+    }
+
+    div.product-modal-infos div.product-modal-title h2{
+        font-size: 24px;
+    }
+
+    div.confirm-modal-title h2 {
+        font-size: 24px;
+    }
+
+    div.confirm-modal-form div.inp-single.w50,
+    div.product-modal-img {
+        width: 100%;
+    }
+
+    div.confirm-modal-form div.inp-money.w50{
+        width: 100%;
+    }
+
+    div.cart-icon{
+        right: 20px;
+        bottom: 15px;
+    }
+}/*768*/
+
+@media screen and (max-width: 550px){
+    div.welcome-modal-title h1{
+        font-size: 24px;
+    }
+
+    div.welcome-modal-title h3{
+        font-size: 16px;
+        padding: 20px 20px 0 20px;
+    }
+
+    div.welcome-modal-home-single h2{
+        font-size: 18px;
+    }
+
+    div.welcome-modal-delivery div.welcome-modal-back,
+    div.welcome-modal-back{
+        padding-bottom: 30px;
+    }
+
+    div.welcome-modal-title h4{
+        font-size: 14px;
+    }
+
+    div.welcome-modal-delivery-form div.btn-box a{
+       margin-top: 20px;
+       width: 100%;
+       text-align: center;
+    }
+
+    header div.logo-header{
+        margin: 0 auto;
+    }
+
+    header div.whatsapp-contact,
+    header div.phone-contact {
+        width: 100%;
+    }
+
+    main div.restaurant-name{
+        text-align: center;
+    }
+
+    main div.restaurant-name h2{
+        font-size: 24px;
+    }
+
+    main div.select-category h2{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    main div.adress-title h2{
+        font-size: 22px;
+    }
+
+    div.cart-modal div.close-modal {
+        padding-bottom: 20px;
+    }
+
+    div.cart-modal div.close-modal i {
+        font-size: 22px;
+    }
+
+    div.cart-modal-title h2 {
+        font-size: 24px;
+    }
+
+    div.cart-modal-table table th {
+        font-size: 16px;
+    }
+
+    div.cart-modal-table table td{
+        font-size: 14px;
+    }
+
+    div.cart-modal-total h2 {
+        font-size: 22px;
+    }
+
+    div.cart-modal-confirm a {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    div.confirm-modal-form{
+        width: 95%;
+    }
+
+    div.confirm-modal-title h2 {
+        font-size: 18px;
+    }
+
+    div.confirm-modal-form div.payment-title h2 {
+        font-size: 20px;
+    }
+
+    div.confirm-modal-form div.btn-single a {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    div.confirm-modal-finish{
+        width: 95%;
+    }
+
+    div.confirm-modal-infos-title h2{
+        font-size: 16px;
+    }
+
+    div.confirm-modal-info-single h3{
+        font-size: 14px;
+    }
+
+    div.confirm-modal-finish div.btn-box a{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    div.finished-modal-title h2 {
+        font-size: 30px;
+    }
+
+    div.finished-modal-request h2 {
+        font-size: 26px;
+    }
+
+    div.finished-modal-address h3 {
+        font-size: 16px;
+    }
+
+    div.finished-modal-total h1 {
+        font-size: 24px;
+    }
+}/*550*/
+
+@media screen and (max-width: 450px){
+
+    div.welcome-modal-content{
+        padding: 10px;
+    }
+
+    div.welcome-modal-home-box{
+        padding-top: 30px;
+    }
+
+    div.welcome-modal-home-single{
+        padding: 20px 0;
+    }
+
+    div.welcome-modal-delivery-form div.inp-single p,
+    div.welcome-modal-withdraw-form div.inp-single p{
+        font-size: 14px;
+    }
+
+    div.welcome-modal-withdraw-form div.inp-single select{
+        font-size: 14px;
+    }
+
+    main div.product-single-content{
+        height: auto;
+    }
+
+    main div.product-single-img{
+        margin: 0 auto;
+    }
+
+    main div.product-single-img img{
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    main div.product-single-infos{
+        width: 100%;
+        text-align: center;
+    }
+
+    div.confirm-modal-form div.inp-single p,
+    div.confirm-modal-form div.inp-money p{
+        font-size: 14px;
+    }
+
+}/*450*/

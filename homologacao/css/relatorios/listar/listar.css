@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.reports{
+    padding: 20px 0;
+}
+
+section.reports div.section-title{
+    padding: 20px 0 40px 0;
+    background-color: white;
+    text-align: center;
+}
+
+section.reports form{
+    background-color: white;
+}
+
+section.reports form div.inp-single{
+    padding: 10px;
+}
+
+section.reports form p{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+section.reports form input,
+section.reports form select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+section.reports form div.btn-single{
+    text-align: right;
+    padding: 30px 10px;
+}
+
+section.reports form div.btn-single button{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #004666;
+    border: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+section.reports form div.btn-single button:hover{
+    background-color: #0072a7;
+}
+
+section.reports div.results-box{
+    padding: 20px 10px;
+    background-color: white;
+    display: none;
+}
+
+section.reports div.results-title{
+    padding-bottom: 40px;
+}
+
+section.reports div.results-title h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section.reports div.results-title h2 > b{
+    color: #eeb600;
+    font-size: 22px;
+}
+
+section.reports div.result-single-title.flexbox{
+    padding: 20px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    transition: .3s;
+}
+
+section.reports div.result-single-title.result-single-open{
+    background-color: #009600;
+}
+
+section.reports div.result-single-title.result-single-open:hover{
+    background-color: #00bb00;
+}
+
+section.reports div.result-single-title.result-single-locked{
+    background-color: #525252;
+}
+
+section.reports div.result-single-title.result-single-locked:hover{
+    background-color: #727272;
+}
+
+section.reports div.result-single-title i{
+    padding-right: 10px;
+    font-size: 26px;
+    color: #eeb600;
+}
+
+section.reports div.result-single-title h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+section.reports div.result-single-content{
+    padding: 20px 10px 40px 10px;
+    text-align: center;
+    display: none;
+    flex-wrap: wrap;
+}
+
+section.reports div.result-single-content-title{
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+section.reports div.result-single-content-title h2{
+    font-size: 22px;
+}
+
+section.reports div.result-single-content-title h3{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+section.reports div.result-single-content-box{
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+section.reports div.result-single-content-single{
+    padding: 40px 20px;
+    border: 10px solid white;
+    background-color: #525252;
+}
+
+section.reports div.result-single-content-single h2{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+section.reports div.result-single-content-single h3{
+    color: #eeb600;
+}
+
+section.reports div.result-single-content div.btn-single{
+    width: 100%;
+}
+
+section.reports div.result-single-content div.btn-single a{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #eeb600;
+    transition: .3s;
+}
+
+section.reports div.result-single-content div.btn-single a:hover{
+    background-color: #ffc402;
+}
+
+@media screen and (max-width: 1100px){
+    section.reports div.result-single-content-single.w25{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    section.reports form div.inp-single.w50{
+        width: 100%;
+    }
+
+    section.reports div.result-single-title h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    section.reports div.result-single-content-title h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section.reports div.section-title h2{
+        font-size: 22px;
+    }
+
+    section.reports div.results-title h2{
+        font-size: 18px;
+    }
+
+    section.reports div.results-title h2 > b{
+        font-size: 20px;
+    }
+
+    section.reports div.result-single-title h3{
+        font-size: 12px;
+    }
+
+    section.reports div.result-single-content-title h2{
+        font-size: 16px;
+    }
+
+    section.reports div.result-single-content-title h3{
+        font-size: 14px;
+    }
+
+    section.reports div.result-single-content-single.w25{
+        padding: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    section.reports div.result-single-content-single h2{
+        font-size: 18px;
+    }
+
+    section.reports div.result-single-content-single h3{
+        font-size: 16px;
+    }
+
+    section.reports div.result-single-content div.btn-single a{
+        font-size: 14px;
+    }
+}
+

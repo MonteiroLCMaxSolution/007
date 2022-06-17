@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-tap-highlight-color: transparent;/*removendo o fundo azul do clique*/
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    background-color: #003852;
+    padding: 10px 22px;
+}
+
+header div.header-logo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+header div.header-logo img{
+    width: 120px;
+    max-width: 120px;
+    margin-left: -60px;
+}
+
+header div.logout-header-icon i,
+header div.dashboard-icon i{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header div.logout-header-icon i:hover,
+header div.dashboard-icon i:hover{
+    color: #ffc400;
+}
+
+@media screen and (max-width: 950px){
+    header div.dashboard-icon{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 650px){
+    header div.header-logo img{
+        width: 100px;
+        max-width: 100px;
+        margin-left: -50px;
+    }
+    
+    header div.logout-header-icon i,
+    header div.dashboard-icon i{
+        top: 13px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px){
+        
+    header div.logout-header-icon i,
+    header div.dashboard-icon i{
+        top: 18px;
+        font-size: 20px;
+    }
+}
+
+/*FIM DO HEADER*/
+
+/*SIDEBAR*/
+
+aside{
+    width: 300px;
+    min-height: 100vh;
+    background-color: #004666;
+    display: none;
+}
+
+aside div.dashboard-close-icon{
+    text-align: right;
+    padding: 20px 20px 0 20px;
+}
+
+aside div.dashboard-close-icon i{
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+aside div.dashboard-user-box{
+    padding: 20px;
+}
+
+aside div.dashboard-user-img{
+    width: 30%;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: blueviolet;
+}
+
+aside div.dashboard-user-infos{
+    position: relative;
+    width: 70%;
+    padding-left: 10px;
+}
+
+aside div.dashboard-user-infos-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}   
+
+aside div.dashboard-user-name{
+    padding-bottom: 5px;
+}
+
+aside div.dashboard-user-name h2{
+    font-size: 20px;
+    color: white;
+}
+
+aside div.dashboard-user-email h3{
+    font-size: 11px;
+    color: #c9c9c9;
+    font-weight: 300;
+}
+
+aside div.dashboard-container{
+    padding: 20px 0;
+    overflow-y: auto;
+}
+
+
+aside div.dashboard-box-title{
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+aside div.dashboard-box-title-content i{
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    transition: .3s;
+}
+
+aside div.dashboard-box-title-content h2,
+aside div.dashboard-box-title-content a{
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside div.dashboard-box-title-arrow i{
+    position: relative;
+    top: 2px;
+    color: white;
+    font-size: 18px;
+    transition: .3s;
+}
+
+aside div.dashboard-box-itens{
+    display: none;
+}
+
+aside div.dashboard-box-item-single a{
+    display: block;
+    padding: 15px 30px;
+    color: white;  
+    text-decoration: none;
+    transition: .2s;
+}
+
+@media screen and (max-width: 950px){
+    aside{
+        width: 100%;
+        display: none;
+    }
+
+    aside div.dashboard-user-name h2{
+        font-size: 30px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    aside div.dashboard-user-name h2{
+        font-size: 25px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    aside div.dashboard-user-name h2{
+        font-size: 20px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    aside div.dashboard-user-name h2{
+        font-size: 18px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 12px;
+    }
+
+    aside div.dashboard-box-title-content i{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-box-title-content h2{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-box-title-arrow i{
+        top: 2px;
+        font-size: 16px;
+    }
+
+    aside div.dashboard-box-item-single a {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    aside div.dashboard-user-name h2{
+        font-size: 16px;
+    }
+    
+    aside div.dashboard-user-email h3{
+        font-size: 10px;
+    }
+}
+
+/*FIM DA SIDEBAR*/
+
+/*CSS GLOBAL*/
+
+body{
+    background-color: rgb(236, 236, 236);
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,/*resetando o input number*/
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*Classes especiais*/
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w55{
+    width: 55%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w45{
+    width: 45%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w33{
+    width: 33.3%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w15{
+    width: 15%;
+}
+
+.w10{
+    width: 10%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.visible{
+    display: flex !important;
+}
+
+/*Barra de rolagem*/
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+/*SELECT PLUGIN*/
+
+.select2-container {
+    max-width: 100%;
+}
+
+.select2-container .select2-selection--single {
+    height: auto !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: auto !important;
+    top: 50% !important;
+    transform: translate(-50%) !important;
+    right: 0 !important;
+}
+.select2-results__options > li {
+    background-color: transparent !important;
+    color: black !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    transition: .3s;
+}
+
+.select2-results__options > li:hover{
+    background-color: #004666 !important;
+    color: white !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #ccc;
+    outline: none;
+}
+.button_green{
+	margin: 20px;
+	background: #429407;
+	color: aliceblue;
+	width: 120px;
+	float: right;
+	height: 35px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 7px;
+}
+
+/*FIM DO SELECT PLUGIN*/
+
+div.content-container{
+    width: 100%;
+}
+
+@media screen and (max-width: 950px){
+    div.content-container{
+        width: 100%;
+    }
+}

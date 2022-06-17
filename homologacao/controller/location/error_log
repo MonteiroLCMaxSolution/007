@@ -1,0 +1,24 @@
+[18-Jan-2022 16:36:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.location' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php(41): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/location/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php on line 41
+[18-Jan-2022 16:37:47 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.location' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php(41): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/location/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php on line 41
+[18-Jan-2022 16:38:03 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.location' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php(41): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/location/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php on line 41
+[18-Jan-2022 16:38:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.location' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php(41): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/location/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/location/location-model.php on line 41

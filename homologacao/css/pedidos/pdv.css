@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MODAL*/
+
+div.pdv-modal{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+div.pdv-modal-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+div.pdv-modal-box{
+    width: 80%;
+    padding: 40px 40px 20px 40px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+}
+
+div.pdv-modal-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+div.pdv-modal-title h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-title h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-title h1 > b{
+    color: #ddaa01;
+}
+
+div.pdv-modal-form{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+div.pdv-modal-form form div.inp-single{
+    padding: 10px;
+}
+
+div.pdv-modal-form form div.inp-single p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+div.pdv-modal-form form div.inp-single input,
+div.pdv-modal-form form div.inp-single select{
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+div.pdv-modal-form form div.checkbox-container{
+    padding: 20px 10px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title{
+    padding-bottom: 20px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title h2{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+div.pdv-modal-form form div.checkbox-container-title h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+div.pdv-modal-form form div.checkbox-container-content label{
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+div.pdv-modal-box div.btn-box{
+    padding: 60px 10px 10px 10px;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single{
+    text-align: center;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single a{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: .3s;
+
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-cancel a{
+    text-align: left;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-cancel a:hover{
+    color: #c40000;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-report a:hover,
+div.pdv-modal-box div.btn-box div.btn-single.btn-remove-item a:hover{
+    color: #0070a3;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-confirm a{
+    text-align: right;
+}
+
+div.pdv-modal-box div.btn-box div.btn-single.btn-confirm a:hover{
+    color: rgb(0, 167, 0);
+}
+
+div.pdv-modal.modal-finalizar-pedido div.pdv-modal-box{
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/*FIM DO MODAL*/
+
+/*SECTION PDV*/
+
+section.pdv{
+    max-height: calc(100vh - 85px);
+    overflow-y: hidden;
+}
+
+/*PDV ADD CART HEADER*/
+
+section.pdv div.pdv-add-cart-header{
+    padding: 10px;
+    text-align: right;
+    display: none;
+    background-color: white;
+}
+
+section.pdv div.pdv-add-cart-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #ffc400;
+    border-radius: 50%;   
+}
+
+section.pdv div.pdv-add-cart-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*PDV PAINEL*/
+
+section.pdv div.pdv-painel::-webkit-scrollbar-thumb{
+    width: 10px;
+}
+
+section.pdv div.pdv-painel{
+    width: 600px;
+    max-width: 600px;
+    padding: 10px;
+    background-color: white;
+    border-right: 2px solid #ccc;
+}
+
+section.pdv div.pdv-painel-content{
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+section.pdv div.pdv-painel-infos{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+section.pdv div.pdv-painel-infos div.inp-single p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section.pdv div.pdv-painel-infos div.inp-single input{
+    border: 0;
+    padding: 10px 0;
+    background-color: white;
+    text-align: center;
+}
+
+section.pdv div.pdv-painel-header{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+section.pdv div.pdv-painel-header div.inp-single{
+    padding: 0 5px 20px 5px;
+}
+
+section.pdv div.pdv-painel-header div.inp-single p{
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+section.pdv div.pdv-painel-header div.inp-single input{
+    padding: 5px 10px;
+    border: 1px soid #ccc;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+section.pdv div.pdv-painel-header div.btn-box div.btn-single{
+    padding: 0 5px;
+}
+
+section.pdv div.pdv-painel-header div.btn-box div.btn-single button{
+    padding: 5px 15px;
+    border: 0;
+    color: white;
+    background: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+section.pdv div.pdv-painel-header div.btn-box div.btn-single button.btn-imprimir{
+    background-color: #ddaa01;
+}
+
+section.pdv div.pdv-painel-header div.btn-box div.btn-single button.btn-retirar-dinheiro{
+    background-color: #0070a3;
+}
+
+section.pdv div.pdv-painel-comanda{
+    display: none;
+}
+
+section.pdv div.pdv-painel-comanda,
+section.pdv div.pdv-painel-mesa{
+    padding-top: 20px;
+    text-align: center;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment-title,
+section.pdv div.pdv-painel-mesa div.pdv-painel-mesa-title{
+    padding-bottom: 20px;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment div.inp-single{
+    padding: 0 5px 20px 5px;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment div.inp-single p{
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment div.inp-single input,
+section.pdv div.pdv-painel-comanda div.partial-payment div.inp-single select{
+    padding: 5px 10px;
+    border: 1px soid #ccc;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment div.btn-single{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+section.pdv div.pdv-painel-comanda div.partial-payment div.btn-single button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    
+}
+
+section.pdv div.pdv-painel-comanda-table,
+section.pdv div.pdv-painel-mesa-table{
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+section.pdv div.pdv-painel-comanda-table table,
+section.pdv div.pdv-painel-mesa-table table
+{
+    width: 100%;
+}
+
+section.pdv div.pdv-painel-comanda-table table th,
+section.pdv div.pdv-painel-mesa-table table th{
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+section.pdv div.pdv-painel-comanda-table table td,
+section.pdv div.pdv-painel-mesa-table table td{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+section.pdv div.pdv-painel-comanda-table table td i,
+section.pdv div.pdv-painel-mesa-table table td i{
+    font-size: 14px;
+    background-color: #ffc400;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section.pdv div.total-comanda-title h2,
+section.pdv div.total-mesa-title h2{
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+section.pdv div.pdv-painel-btn-box{
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-between;
+    background-color: white;
+}
+
+section.pdv div.pdv-painel-btn-box div.btn-single button{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #ccc;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+section.pdv div.pdv-painel-btn-box div.btn-single button.btn-fechar-caixa{
+    background-color: red;
+}
+
+section.pdv div.pdv-painel-btn-box div.btn-single button.btn-novo-pedido{
+    background-color: #0070a3;
+}
+
+section.pdv div.pdv-painel-btn-box div.btn-single button.btn-finalizar-caixa{
+    background-color: green;
+}
+
+/*PDV CONTAINER*/
+
+section.pdv div.pdv-container::-webkit-scrollbar{
+    width: 8px;
+}
+
+section.pdv div.pdv-container.w100{
+    width: calc(100% - 600px);
+    background-color: white;
+    max-height: calc(100vh - 85px);
+    overflow-y: auto;
+}
+
+/*BOX PRODUCTS*/
+
+section.pdv div.box-products{
+    background-color: white;
+    padding: 20px 0;
+    display: none;
+}
+
+section.pdv div.product-single{
+    border: 10px solid white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+section.pdv div.product-single:hover{
+    transform: scale(.9);
+}
+
+section.pdv div.product-single-img{
+    text-align: center;
+    border: 2px solid black;
+}
+
+section.pdv div.product-single img{
+    max-width: 80%;
+    max-height: 120px;
+    text-align: center;
+}
+
+section.pdv div.product-single-content{
+    position: relative;
+    background-color: black;
+    padding: 10px;
+}
+
+section.pdv div.product-single-title h2{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.pdv div.product-single-price h3{
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*BOX CATEGORIES*/
+
+section.pdv div.box-categories{
+    padding: 20px 0;
+    background-color: white;
+    overflow-y: auto;
+}
+
+section.pdv div.categorie-single{
+    padding: 10px;
+    background-color: #ffc400;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+section.pdv div.categorie-single h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+@media screen and (max-width: 1100px){
+    section.pdv div.product-single.w33{
+        width: 100%;
+    }
+}/*1100*/
+
+@media screen and (max-width: 950px){
+
+    section.pdv{
+        max-height: hidden;
+        overflow-y: auto;
+    }
+
+    section.pdv div.pdv-painel{
+        width: 100%;
+        max-width: 100%;
+        border-right: 0;
+    }
+
+    section.pdv div.pdv-painel-content{
+        max-height: calc(100vh - 235px);
+    }
+
+    section.pdv div.pdv-container.w100{
+        width: 100%;
+        max-height: calc(100vh - 85px);
+    }
+
+    section.pdv div.pdv-add-cart-header{
+        display: block;
+    }
+
+    section.pdv div.pdv-container.w100{
+        max-height: calc(100vh - 155px);
+        display: none;
+    }
+
+    section.pdv div.product-single.w33{
+        width: 33%;
+    }
+}/*950*/
+
+
+@media screen and (max-width: 768px){
+    div.pdv-modal-form form div.checkbox-container.w50{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.pdv div.product-single.w25{
+        width: 33.3%;
+    }
+
+    section.pdv div.categorie-single.w25{
+        width: 33.3%;
+    }
+
+}/*768*/
+
+@media screen and (max-width: 650px){
+    div.pdv-modal-box{
+        padding: 20px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-title h2{
+        font-size: 18px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-title h3{
+        font-size: 16px;
+    }
+
+    div.pdv-modal-form form div.checkbox-container-content label{
+        font-size: 14px;
+    }
+
+    div.pdv-modal-box div.btn-box div.btn-single a{
+        font-size: 14px;
+    }
+
+    section.pdv div.pdv-painel-content{
+        max-height: calc(100vh - 235px);
+    }
+
+    section.pdv div.product-single.w33{
+        width: 50%;
+    }
+}/*650*/
+
+@media screen and (max-width: 600px){
+    div.pdv-modal-title h2 {
+        font-size: 24px;
+    }
+
+    section.pdv div.product-single.w25{
+        width: 50%;
+    }
+
+    section.pdv div.categorie-single.w25{
+        width: 50%;
+    }
+}/*600*/
+
+@media screen and (max-width: 550px){
+    section.pdv div.pdv-painel-infos div.inp-single{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    section.pdv div.pdv-painel-header div.inp-single{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    section.pdv div.pdv-painel-header div.btn-box div.btn-single{
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    section.pdv div.pdv-painel-comanda div.partial-payment div.inp-single{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+}/*550*/
+
+@media screen and (max-width: 500px){
+
+    div.pdv-modal-form form div.inp-single.w50{
+        width: 100%;
+    }
+}/*500*/
+
+@media screen and (max-width: 450px){
+    div.pdv-modal-title h2 {
+        font-size: 22px;
+    }
+
+    div.pdv-modal.modal-retirar-dinheiro div.pdv-modal-title h2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    div.pdv-modal-title h1 {
+        font-size: 20px;
+    }
+
+    div.pdv-modal-box div.btn-box div.btn-single a{
+        font-size: 12px;
+    }
+
+    section.pdv div.pdv-painel-content{
+        max-height: calc(100vh - 340px);
+    }
+
+    section.pdv div.pdv-painel-header div.btn-box div.btn-single button{
+        font-size: 14px;
+    }
+
+    section.pdv div.pdv-painel-comanda div.partial-comanda-title h3{
+        font-size: 16px;
+    }
+
+    section.pdv div.pdv-painel-comanda div.total-comanda-title h2,
+    section.pdv div.pdv-painel-mesa div.total-mesa-title h2{
+        font-size: 20px;
+    }
+
+    section.pdv div.pdv-painel-btn-box div.btn-single{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section.pdv div.pdv-painel-btn-box div.btn-single button{
+        width: 100%;
+    }
+
+    section.pdv div.product-single.w33{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section.pdv div.categorie-single.w25{
+        width: 90%;
+        margin: 0 auto;
+    }
+}/*450*/
+
+
+
+
+
+
+
+
+
+

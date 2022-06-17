@@ -1,0 +1,7 @@
+[21-Jan-2022 21:07:42 UTC] PHP Fatal error:  QRcode : Data do not exist. in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 88
+[21-Jan-2022 21:08:35 UTC] PHP Fatal error:  QRcode : Data do not exist. in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 88
+[21-Jan-2022 21:22:47 UTC] PHP Fatal error:  QRcode : Too large image size in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 607
+[21-Jan-2022 21:22:47 UTC] PHP Fatal error:  QRcode : Too large image size in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 607
+[21-Jan-2022 21:22:47 UTC] PHP Fatal error:  QRcode : Too large image size in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 607
+[21-Jan-2022 21:22:47 UTC] PHP Fatal error:  QRcode : Too large image size in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 607
+[21-Jan-2022 21:55:37 UTC] PHP Fatal error:  QRcode : Data do not exist. in /home/maxcomanda/public_html/MaxComanda/lib/qrcode/php/qr_img.php on line 88

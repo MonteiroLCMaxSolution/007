@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="code_generator.phps" server="ftp.motelyesmotel.com.br" local="131692276522962184" remote="131581526400000000" Dst="1" />
+<file name="DKIM.phps" server="ftp.motelyesmotel.com.br" local="131692276522992259" remote="131581526400000000" Dst="1" />
+<file name="contactform.phps" server="ftp.motelyesmotel.com.br" local="131692276532221815" remote="131581526400000000" Dst="1" />
+<file name="contents.html" server="ftp.motelyesmotel.com.br" local="131692276532246886" remote="131581526400000000" Dst="1" />
+<file name="contentsutf8.html" server="ftp.motelyesmotel.com.br" local="131692276546374480" remote="131581526400000000" Dst="1" />
+<file name="exceptions.phps" server="ftp.motelyesmotel.com.br" local="131692276546384520" remote="131581526400000000" Dst="1" />
+<file name="gmail.phps" server="ftp.motelyesmotel.com.br" local="131692276547211699" remote="131581526400000000" Dst="1" />
+<file name="gmail_xoauth.phps" server="ftp.motelyesmotel.com.br" local="131692276558757424" remote="131581526400000000" Dst="1" />
+<file name="mail.phps" server="ftp.motelyesmotel.com.br" local="131692276656758601" remote="131581526400000000" Dst="1" />
+<file name="index.html" server="ftp.motelyesmotel.com.br" local="131692276656768634" remote="131581526400000000" Dst="1" />
+<file name="mailing_list.phps" server="ftp.motelyesmotel.com.br" local="131692276656773648" remote="131581526400000000" Dst="1" />
+<file name="pop_before_smtp.phps" server="ftp.motelyesmotel.com.br" local="131692276678669674" remote="131581526400000000" Dst="1" />
+<file name="send_file_upload.phps" server="ftp.motelyesmotel.com.br" local="131692276706509734" remote="131581526400000000" Dst="1" />
+<file name="send_multiple_file_upload.phps" server="ftp.motelyesmotel.com.br" local="131692276706519762" remote="131581526400000000" Dst="1" />
+<file name="sendmail.phps" server="ftp.motelyesmotel.com.br" local="131692276706539816" remote="131581526400000000" Dst="1" />
+<file name="signed-mail.phps" server="ftp.motelyesmotel.com.br" local="131692276717529589" remote="131581526400000000" Dst="1" />
+<file name="smtp_check.phps" server="ftp.motelyesmotel.com.br" local="131692276718082792" remote="131581526400000000" Dst="1" />
+<file name="smtp_no_auth.phps" server="ftp.motelyesmotel.com.br" local="131692276730430417" remote="131581526400000000" Dst="1" />
+<file name="ssl_options.phps" server="ftp.motelyesmotel.com.br" local="131692276730435427" remote="131581526400000000" Dst="1" />
+</dwsync>
