@@ -1,0 +1,4 @@
+[02-Feb-2022 09:23:50 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/maxcomanda/public_html/MaxComanda/model/promotion/promotion-model.php on line 39
+[02-Feb-2022 09:23:50 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/maxcomanda/public_html/MaxComanda/model/promotion/promotion-model.php on line 39
+[02-Feb-2022 09:23:50 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/maxcomanda/public_html/MaxComanda/model/promotion/promotion-model.php on line 49
+[02-Feb-2022 09:23:50 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/maxcomanda/public_html/MaxComanda/model/promotion/promotion-model.php on line 49

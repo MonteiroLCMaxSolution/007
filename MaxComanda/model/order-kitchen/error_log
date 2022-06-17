@@ -1,0 +1,5 @@
+[31-Jan-2022 16:03:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/maxcomanda/public_html/MaxComanda/model/order-kitchen/order-kitchen-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-kitchen/order-kitchen-model.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-kitchen/order-kitchen-model.php on line 41

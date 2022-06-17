@@ -1,0 +1,372 @@
+[21-Jan-2022 16:43:50 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 38
+[21-Jan-2022 16:43:50 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 38
+[21-Jan-2022 16:43:52 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 38
+[21-Jan-2022 16:43:52 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 38
+[21-Jan-2022 16:50:27 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:43
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(43): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 43
+[21-Jan-2022 16:51:21 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:43
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(43): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 43
+[21-Jan-2022 16:52:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:43
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(43): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 43
+[21-Jan-2022 16:52:14 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:43
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(43): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 43
+[21-Jan-2022 16:52:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:45
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(45): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 45
+[21-Jan-2022 16:52:50 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:45
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(45): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 45
+[21-Jan-2022 16:53:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:45
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(45): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 45
+[21-Jan-2022 16:54:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:45
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(45): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 45
+[21-Jan-2022 16:54:15 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:45
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(45): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 45
+[21-Jan-2022 17:15:04 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 17:15:04 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 17:15:08 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 17:15:08 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:08:47 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:08:47 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:09:53 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:09:53 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:09:57 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[21-Jan-2022 19:09:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[22-Jan-2022 14:06:16 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[22-Jan-2022 14:06:16 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 39
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:01 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:14 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:24:55 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 73
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 77
+[26-Jan-2022 11:25:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 89
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: lib in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 84
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:27:29 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 88
+[26-Jan-2022 11:28:58 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:29:42 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:09 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:19 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:23 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:30:28 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[26-Jan-2022 11:40:13 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[28-Jan-2022 16:51:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[29-Jan-2022 08:21:07 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:55:39 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:06 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[30-Jan-2022 09:56:11 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[31-Jan-2022 10:06:24 America/Sao_Paulo] PHP Notice:  Undefined variable: qrTable in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 100
+[04-Feb-2022 13:16:54 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[04-Feb-2022 13:16:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[04-Feb-2022 18:52:27 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY status' at line 1 in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php:192
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php(192): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/order-sheet/order-sheet-model.php on line 192
+[04-Feb-2022 18:52:52 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[04-Feb-2022 18:52:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 11:15:08 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 11:15:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:30:02 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:30:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:30:11 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:30:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:31:16 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:31:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:31:17 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 14:31:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 15:37:29 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 15:37:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 15:37:31 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchOrderSheet in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50
+[07-Feb-2022 15:37:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/controller/order-sheet/table.php on line 50

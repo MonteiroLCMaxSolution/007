@@ -1,0 +1,10 @@
+[18-Jan-2022 10:05:51 America/Sao_Paulo] PHP Notice:  Undefined variable: CPF_CNPJ in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 174
+[18-Jan-2022 10:05:51 America/Sao_Paulo] PHP Notice:  Undefined variable: last_update in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 246
+[18-Jan-2022 10:06:01 America/Sao_Paulo] PHP Notice:  Undefined variable: CPF_CNPJ in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 174
+[18-Jan-2022 10:06:01 America/Sao_Paulo] PHP Notice:  Undefined variable: last_update in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 246
+[20-Jan-2022 17:03:10 America/Sao_Paulo] PHP Notice:  Undefined variable: rowID in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 695
+[20-Jan-2022 17:03:10 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 695
+[20-Jan-2022 17:06:02 America/Sao_Paulo] PHP Notice:  Undefined variable: rowID in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 695
+[20-Jan-2022 17:06:02 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 695
+[20-Jan-2022 17:07:00 America/Sao_Paulo] PHP Notice:  Undefined variable: CPF_CNPJ in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 478
+[20-Jan-2022 17:10:28 America/Sao_Paulo] PHP Notice:  Undefined variable: CPF_CNPJ in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 478

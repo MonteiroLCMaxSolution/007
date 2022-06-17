@@ -1,0 +1,1 @@
+[28-Jan-2022 08:25:10 America/Sao_Paulo] PHP Fatal error:  Call to a member function beginTransaction() on null in /home/maxcomanda/public_html/MaxComanda/model/category/category-model.php on line 132

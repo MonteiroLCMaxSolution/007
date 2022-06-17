@@ -1,0 +1,163 @@
+[26-Jan-2022 14:30:23 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:31:05 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:32:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:33:32 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:33:47 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:33:47 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:33:47 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:34:14 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:34:14 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:34:14 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:35:18 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:35:18 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:35:18 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:35:31 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:35:31 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:35:31 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:38:48 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:38:48 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:38:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:39:41 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:39:41 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:39:41 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:29 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:40:29 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:44 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:40:44 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:44 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:48 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:40:48 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:40:48 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:42:42 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:42:42 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:42:42 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:46:09 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 103
+[26-Jan-2022 14:46:09 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:46:09 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:47:53 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:47:53 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 105
+[26-Jan-2022 14:47:53 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 105
+[26-Jan-2022 14:47:57 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 104
+[26-Jan-2022 14:47:57 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlVerifyCashier in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 105
+[26-Jan-2022 14:47:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 105
+[26-Jan-2022 16:07:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.user_id' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:117
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(117): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 117
+[26-Jan-2022 16:07:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.user_id' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:117
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(117): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 117
+[26-Jan-2022 18:25:13 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 184
+[26-Jan-2022 18:25:13 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 184
+[26-Jan-2022 18:25:15 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 184
+[26-Jan-2022 18:25:15 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 184
+[26-Jan-2022 19:18:12 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '2022-01-26' AND a.company_id = 1' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:284
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(284): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 284
+[26-Jan-2022 19:18:21 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '2022-01-26' AND a.company_id = 1' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:284
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(284): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 284
+[26-Jan-2022 19:19:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '2022-01-26' AND a.company_id = 1' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:284
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(284): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 284
+[26-Jan-2022 19:20:24 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '2022-01-26' AND a.company_id = 1' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:284
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(284): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 284
+[26-Jan-2022 20:24:39 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 133
+[26-Jan-2022 20:26:52 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 133
+[26-Jan-2022 20:26:54 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 133
+[26-Jan-2022 20:26:55 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 133
+[26-Jan-2022 20:27:44 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 133
+[26-Jan-2022 20:32:02 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 135
+[26-Jan-2022 20:32:30 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 135
+[26-Jan-2022 20:33:37 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 135
+[26-Jan-2022 20:34:30 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 135
+[26-Jan-2022 20:37:00 America/Sao_Paulo] PHP Notice:  Undefined variable: cashier_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 135
+[27-Jan-2022 11:41:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.status' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:387
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php(387): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 387
+[27-Jan-2022 14:06:54 America/Sao_Paulo] PHP Notice:  Undefined index: money in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 208
+[27-Jan-2022 14:06:54 America/Sao_Paulo] PHP Notice:  Undefined index: credit in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 213
+[27-Jan-2022 14:06:54 America/Sao_Paulo] PHP Notice:  Undefined index: debit in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 218
+[27-Jan-2022 14:06:54 America/Sao_Paulo] PHP Notice:  Undefined index: PIX in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 223
+[27-Jan-2022 14:07:35 America/Sao_Paulo] PHP Notice:  Undefined index: money in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 208
+[27-Jan-2022 14:07:35 America/Sao_Paulo] PHP Notice:  Undefined index: credit in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 213
+[27-Jan-2022 14:07:35 America/Sao_Paulo] PHP Notice:  Undefined index: debit in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 218
+[27-Jan-2022 14:07:35 America/Sao_Paulo] PHP Notice:  Undefined index: PIX in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 223
+[27-Jan-2022 18:25:10 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[27-Jan-2022 18:25:10 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[27-Jan-2022 18:25:12 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[27-Jan-2022 18:25:12 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[27-Jan-2022 18:25:14 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[27-Jan-2022 18:25:14 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 299
+[28-Jan-2022 15:18:28 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 15:22:17 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 15:22:20 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 15:23:33 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 15:48:05 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 15:49:06 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 658
+[28-Jan-2022 15:49:13 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 658
+[28-Jan-2022 16:23:49 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:23:57 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[29-Jan-2022 08:00:44 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 08:00:49 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 08:01:31 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 08:01:57 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 08:03:23 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 08:03:24 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 14:13:19 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 777
+[29-Jan-2022 14:25:15 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 786
+[29-Jan-2022 14:25:15 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 786
+[29-Jan-2022 16:25:11 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 757
+[29-Jan-2022 16:25:11 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 757
+[29-Jan-2022 16:25:13 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 757
+[29-Jan-2022 16:25:13 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 757
+[01-Feb-2022 11:23:45 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 993
+[01-Feb-2022 11:23:49 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 993
+[01-Feb-2022 13:54:23 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 993
+[01-Feb-2022 17:51:24 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1090
+[02-Feb-2022 13:30:06 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1090
+[02-Feb-2022 13:38:21 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1090
+[03-Feb-2022 13:21:46 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1076
+[03-Feb-2022 14:26:23 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1154
+[03-Feb-2022 15:46:27 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1201
+[03-Feb-2022 18:05:54 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1201
+[10-Feb-2022 16:25:13 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 16:25:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 16:25:14 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 119
+[10-Feb-2022 16:25:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 119
+[10-Feb-2022 16:25:16 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 16:25:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 17:30:28 America/Sao_Paulo] PHP Notice:  Undefined index: value in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 17:32:02 America/Sao_Paulo] PHP Notice:  Undefined index: value in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 48
+[10-Feb-2022 19:10:42 America/Sao_Paulo] PHP Notice:  Undefined variable: uniqID in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1871
+[10-Feb-2022 19:10:42 America/Sao_Paulo] PHP Notice:  Undefined variable: order_item_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1885
+[10-Feb-2022 19:12:08 America/Sao_Paulo] PHP Notice:  Undefined variable: uniqID in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1871
+[10-Feb-2022 19:12:08 America/Sao_Paulo] PHP Notice:  Undefined variable: order_item_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1885
+[10-Feb-2022 19:16:04 America/Sao_Paulo] PHP Notice:  Undefined variable: uniqID in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1871
+[10-Feb-2022 19:16:04 America/Sao_Paulo] PHP Notice:  Undefined variable: order_item_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1885
+[10-Feb-2022 19:17:29 America/Sao_Paulo] PHP Notice:  Undefined variable: uniqID in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1871
+[10-Feb-2022 19:17:29 America/Sao_Paulo] PHP Notice:  Undefined variable: order_item_id in /home/maxcomanda/public_html/MaxComanda/model/PDV/PDV-model.php on line 1885

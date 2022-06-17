@@ -1,0 +1,418 @@
+[19-Jan-2022 07:54:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:339
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(339): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 339
+[19-Jan-2022 07:54:15 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:339
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(339): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 339
+[19-Jan-2022 07:54:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:339
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(339): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 339
+[19-Jan-2022 10:04:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSET INTO product_img (id_product, img, main_img, user_register, date_register)' at line 1' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:61
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(61): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 61
+[19-Jan-2022 10:05:14 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:05:14 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:16 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:16 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:19 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:19 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:20 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:10:20 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 27
+[19-Jan-2022 10:11:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 17
+[19-Jan-2022 10:11:58 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 29
+[19-Jan-2022 10:11:58 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 29
+[19-Jan-2022 10:13:07 America/Sao_Paulo] PHP Notice:  Undefined variable: list_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 30
+[19-Jan-2022 10:26:34 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 42
+[19-Jan-2022 10:26:34 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 42
+[19-Jan-2022 10:27:13 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:27:26 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:42:30 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:42:39 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:42:39 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:42:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_update = '1',
+	last_update = '2022-01-19 10:42:43'
+	WHERE id != '1' AND id_' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:61
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(61): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 61
+[19-Jan-2022 10:45:07 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:07 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:09 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:09 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:11 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:11 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:15 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:15 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:23 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:45:23 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 43
+[19-Jan-2022 10:46:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:21 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:21 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:30 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:30 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:32 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:46:32 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:18 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:19 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:19 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:59 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:47:59 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:00 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:00 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:02 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:02 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:03 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:03 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:03 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:03 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:04 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:04 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:05 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:05 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:51 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 41
+[19-Jan-2022 10:48:51 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 10:48:51 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 41
+[19-Jan-2022 10:48:51 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$main_img in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 46
+[19-Jan-2022 11:17:09 America/Sao_Paulo] PHP Notice:  Undefined variable: http in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 24
+[19-Jan-2022 11:18:21 America/Sao_Paulo] PHP Notice:  Undefined index: directoryName in /home/maxcomanda/public_html/MaxComanda/controller/product/list-img.php on line 24
+[19-Jan-2022 18:55:28 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/product/table-provider-modal.php on line 42
+[19-Jan-2022 18:56:18 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchProduct in /home/maxcomanda/public_html/MaxComanda/controller/product/table-provider-modal.php on line 46
+[19-Jan-2022 18:56:18 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/product/table-provider-modal.php on line 46
+[19-Jan-2022 19:09:55 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.product_entry' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:73
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(73): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 73
+[19-Jan-2022 19:10:26 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'maxcoman_max_comanda.product_entry' doesn't exist' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:73
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(73): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 73
+[19-Jan-2022 19:12:48 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:12:48 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:12:48 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:12:48 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:09 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:30 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:30 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:36 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:13:36 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:09 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:09 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:19 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:19 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:44 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:44 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:50 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:50 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:57 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:14:57 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:15:45 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:15:45 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:15:49 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entrada' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:76
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(76): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 76
+[19-Jan-2022 19:16:13 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:16:13 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:24:50 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:24:50 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:31:49 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 19:31:49 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 20:12:56 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[19-Jan-2022 20:12:56 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 59
+[20-Jan-2022 11:04:59 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:04:59 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:26 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:26 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:26 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:26 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:51 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:51 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:51 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:05:51 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:10 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:10 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:10 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:10 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:16 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:16 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:16 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:16 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:30 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:30 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:30 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:07:30 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:08:57 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:08:57 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:00 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:00 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:10 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:10 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:13 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:13 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:23 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:09:23 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:08 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:08 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:08 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:08 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:41 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:41 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:41 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 11:15:41 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:05 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:05 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:54 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:54 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:09:54 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:14 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:14 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:14 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:38 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:38 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:38 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:10:38 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 52
+[20-Jan-2022 13:11:00 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 61
+[20-Jan-2022 13:11:00 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 61
+[20-Jan-2022 13:11:00 America/Sao_Paulo] PHP Notice:  Undefined variable: rowSearchEntry in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 61
+[20-Jan-2022 13:11:00 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php on line 61
+[20-Jan-2022 13:39:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:214
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(214): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 214
+[20-Jan-2022 13:39:31 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:214
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(214): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 214
+[25-Jan-2022 19:32:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:35:11 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:35:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:37:21 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:37:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:37:44 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[25-Jan-2022 19:38:43 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '61f076ed19b74' in 'where clause'' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:177
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(177): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-adjustment.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 177
+[28-Jan-2022 16:09:23 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:09:23 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:11:26 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:11:26 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:17:35 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:17:35 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:18:00 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/product/table.php on line 35
+[28-Jan-2022 16:18:22 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 19:21:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/maxcomanda/public_html/MaxComanda/controller/product/table.php:4) in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 4
+[28-Jan-2022 16:21:17 America/Sao_Paulo] PHP Notice:  Undefined index: productName in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1036
+[28-Jan-2022 16:21:17 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:21:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(17): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 19:21:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/maxcomanda/public_html/MaxComanda/controller/product/table.php:4) in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 4
+[28-Jan-2022 16:21:30 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:21:30 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:21:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(17): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 19:22:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/maxcomanda/public_html/MaxComanda/controller/product/table.php:4) in /home/maxcomanda/public_html/MaxComanda/controller/product/table.php on line 6
+[28-Jan-2022 16:22:17 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:22:17 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:22:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(21): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:22:50 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:22:50 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:22:50 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:22:52 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[28-Jan-2022 16:22:52 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:22:52 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:26:00 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:26:00 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:27:21 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:27:21 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:28:06 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:28:06 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:28:39 America/Sao_Paulo] PHP Notice:  Undefined index: productName in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1036
+[28-Jan-2022 16:28:39 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:28:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:40:39 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:40:39 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[28-Jan-2022 16:46:29 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1060
+[28-Jan-2022 16:46:29 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1063
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1063): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1063
+[05-Feb-2022 12:58:55 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/MaxComanda/uploads/productImg/61fe9e908489d.jpg): No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 391
+[05-Feb-2022 13:01:32 America/Sao_Paulo] PHP Warning:  move_uploaded_file(productImg/61fe9f5ceed1a.jpg): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 620
+[05-Feb-2022 13:01:32 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpc9bn1M' to 'productImg/61fe9f5ceed1a.jpg' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 620
+[05-Feb-2022 13:03:56 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/home/maxcomanda/public_html/MaxComanda/uploads/ productImg/61fe9fec135dc.jpg): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 619
+[05-Feb-2022 13:03:56 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpcRdNGi' to '/home/maxcomanda/public_html/MaxComanda/uploads/ productImg/61fe9fec135dc.jpg' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 619
+[05-Feb-2022 13:14:37 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 377
+[05-Feb-2022 13:14:37 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 380
+[05-Feb-2022 13:14:37 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/bruno/uploads/productImg/61fea227d2918.jpg): No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 396
+[05-Feb-2022 13:14:43 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 377
+[05-Feb-2022 13:14:43 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 380
+[05-Feb-2022 13:15:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 377
+[05-Feb-2022 13:15:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 380
+[05-Feb-2022 13:19:41 America/Sao_Paulo] PHP Warning:  move_uploaded_file(/home/maxcomanda/public_html/leus/uploads/productImg/61fea39dcf8bf.jpg): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 629
+[05-Feb-2022 13:19:41 America/Sao_Paulo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6Ukg6G' to '/home/maxcomanda/public_html/leus/uploads/productImg/61fea39dcf8bf.jpg' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 629
+[10-Feb-2022 08:56:16 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_id' in 'where clause' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:59
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(59): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-flavor.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 59
+[10-Feb-2022 10:10:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_id' in 'where clause' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:248
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(248): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-addition.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 248
+[10-Feb-2022 10:10:19 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_id' in 'where clause' in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:248
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(248): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table-addition.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 248
+[14-Feb-2022 18:25:11 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1641
+[14-Feb-2022 18:25:11 America/Sao_Paulo] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1641
+[14-Feb-2022 18:25:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1641
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php(1641): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1641
+[14-Feb-2022 18:25:13 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1456
+[14-Feb-2022 18:25:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php:1456
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/controller/product/table.php(20): include_once()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/product/product-model.php on line 1456

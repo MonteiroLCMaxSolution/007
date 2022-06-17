@@ -1,0 +1,30 @@
+[18-Jan-2022 16:10:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'd.category_id' in 'on clause'' in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php:43
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php(43): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/subcategory/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php on line 43
+[07-Feb-2022 16:28:31 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php:50
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php(50): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/subcategory/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php on line 50
+[07-Feb-2022 16:28:39 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php:50
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php(50): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/subcategory/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php on line 50
+[14-Feb-2022 23:30:52 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php:50
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php(50): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/subcategory/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php on line 50
+[14-Feb-2022 23:30:55 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in where clause is ambiguous in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php:50
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php(50): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/subcategory/table.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/subcategory/subcategory-model.php on line 50

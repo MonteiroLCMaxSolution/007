@@ -1,0 +1,77 @@
+[18-Jan-2022 10:36:37 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:36:58 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:37:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:38:21 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:39:08 America/Sao_Paulo] PHP Notice:  Undefined variable: insertAddres in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:39:08 America/Sao_Paulo] PHP Fatal error:  Call to a member function execute() on null in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 81
+[18-Jan-2022 10:40:48 America/Sao_Paulo] PHP Notice:  Undefined variable: client_delivery_address in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 85
+[18-Jan-2022 10:40:48 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php:87
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php(87): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 87
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: CEP1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 37
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: address1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 40
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: number1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 43
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: complement1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 46
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: neighborhood1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 49
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: city1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 52
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined index: UF1 in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 55
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Notice:  Undefined variable: insertAddress in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 69
+[18-Jan-2022 11:40:17 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php:79
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php(79): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 79
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: CEP in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 37
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: address in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 40
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: number in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 43
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: complement in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 46
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: neighborhood in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 49
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: city in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 52
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined index: UF in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 55
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Notice:  Undefined variable: insertAddress in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 69
+[18-Jan-2022 11:51:07 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php:79
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php(79): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 79
+[18-Jan-2022 12:00:51 America/Sao_Paulo] PHP Notice:  Undefined variable: insertAddress in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 69
+[18-Jan-2022 12:00:51 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php:79
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php(79): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 79
+[18-Jan-2022 14:15:04 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:15:04 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:15:59 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:15:59 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:17:59 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:17:59 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:30:26 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:30:26 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:31:39 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:31:39 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:31:57 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:31:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:33:19 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:33:19 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:35:11 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlSearchClientAddress in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:35:11 America/Sao_Paulo] PHP Fatal error:  Call to a member function fetch() on null in /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php on line 40
+[18-Jan-2022 14:37:22 America/Sao_Paulo] PHP Notice:  Undefined variable: SQL_register_log in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 53
+[18-Jan-2022 14:37:22 America/Sao_Paulo] PHP Notice:  Undefined variable: SQL_register_log in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 80
+[18-Jan-2022 14:37:22 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php:88
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php(88): PDOStatement->execute()
+#1 /home/maxcomanda/public_html/MaxComanda/controller/client/table-address.php(15): include_once('/home/maxcomand...')
+#2 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 88
+[18-Jan-2022 14:38:50 America/Sao_Paulo] PHP Notice:  Undefined variable: sqlLog in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 56
+[18-Jan-2022 14:41:05 America/Sao_Paulo] PHP Notice:  Undefined variable: last_update in /home/maxcomanda/public_html/MaxComanda/model/client/client-model.php on line 297
+[07-Feb-2022 13:50:40 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21
+[07-Feb-2022 13:50:40 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21
+[07-Feb-2022 13:50:40 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21

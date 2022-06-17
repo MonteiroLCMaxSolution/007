@@ -1,0 +1,143 @@
+/* *************************************** HTML ************************************** */
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* *************************************** FIM - HTML ************************************** */
+
+/* *************************************** BODY ************************************** */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* *************************************** FIM - BODY ************************************** */
+
+/* *************************************** FOOTER ************************************** */
+footer {
+  margin-top: auto;
+  height: 40px;
+}
+
+.footer {
+  font-size: clamp(1em, 1em + 1vw, 1em);
+}
+
+@media only screen and (max-width: 425px) {
+  .footer {
+    font-size: clamp(0.6em, 1em + 1vw, 0.6em);
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .footer {
+    font-size: clamp(0.8em, 1em + 1vw, 0.8em);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  footer {
+    height: 20px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .footer {
+    font-size: clamp(1.2em, 1em + 1vw, 1.2em);
+  }
+}
+
+/* *************************************** FIM - FOOTER ************************************** */
+
+/* *************************************** CONTENT-WRAPPER ************************************** */
+.content-wrapper {
+  padding: 10px;
+  padding-bottom: 5px;
+  /* Mesma Altura do Rodapé */
+
+}
+
+/* *************************************** FIM - CONTENT-WRAPPER ************************************** */
+
+.fixed {
+  position: fixed;
+}
+
+/* *************************************** SECTION ************************************** */
+section {
+  margin-bottom: 5px;
+
+}
+
+/* *************************************** FIM - SECTION ************************************** */
+
+/* *************************************** HEADER ************************************** */
+header {
+  padding-bottom: 70px;
+  z-index: 1000;
+}
+
+/* *************************************** FIM - HEADER ************************************** */
+
+/* ************************************************* CONTAINER *********************************** */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* *************************************** FIM - CONTAINER ************************************** */
+
+
+/* *************************************** BREADCRUMB ************************************** */
+.breadcrumb {
+  font-size: clamp(1em, 1em + 1vw, 1em);
+}
+
+@media only screen and (max-width: 407px) {
+  .breadcrumb {
+    font-size: clamp(0.8em, 1em + 1vw, 0.8em);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .breadcrumb {
+    font-size: clamp(1.5em, 1em + 1vw, 1.5em);
+  }
+}
+
+.pageBreadcrumb {
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 356px) {
+  .pageBreadcrumb {
+    font-size: clamp(0.95em, 1em + 1vw, 0.95em);
+  }
+}
+
+/* *************************************** FIM - BREADCRUMB ************************************** */
+
+/* *************************************** FIXED ACTION BTN ************************************** */
+.fixed-action-btn {
+  bottom: 45px;
+}
+
+/* *************************************** FIM - FIXED ACTION BTN ************************************** */
+
+

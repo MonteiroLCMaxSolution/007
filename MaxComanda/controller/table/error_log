@@ -1,0 +1,25 @@
+[21-Jan-2022 09:11:42 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 68
+[21-Jan-2022 09:12:19 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 68
+[21-Jan-2022 09:12:21 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 68
+[21-Jan-2022 09:12:29 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 68
+[21-Jan-2022 09:13:08 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 68
+[31-Jan-2022 11:51:25 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 11:51:25 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 08:51:25 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 240
+[31-Jan-2022 11:51:31 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 11:51:31 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 08:51:31 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 240
+[31-Jan-2022 11:51:38 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 11:51:38 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 08:51:38 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 240
+[31-Jan-2022 11:51:44 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 11:51:44 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html//conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 19
+[31-Jan-2022 08:51:44 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 240
+[31-Jan-2022 08:53:12 America/Sao_Paulo] PHP Notice:  Undefined variable: directoryName in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 25
+[31-Jan-2022 08:53:12 America/Sao_Paulo] PHP Notice:  Undefined variable: directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 26
+[31-Jan-2022 08:53:12 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 389
+[31-Jan-2022 08:53:34 America/Sao_Paulo] PHP Notice:  Undefined variable: directory in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 27
+[31-Jan-2022 08:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 390
+[31-Jan-2022 08:54:00 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 390
+[31-Jan-2022 08:54:24 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 390
+[31-Jan-2022 08:55:02 America/Sao_Paulo] PHP Notice:  Undefined index: pg in /home/maxcomanda/public_html/MaxComanda/model/table/table-model.php on line 390

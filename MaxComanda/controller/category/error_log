@@ -1,0 +1,3 @@
+[07-Feb-2022 13:48:29 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21
+[07-Feb-2022 13:48:29 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21
+[07-Feb-2022 13:48:29 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/coffeebeer/conexao-pdo/conexao-mysql-pdo.php on line 21

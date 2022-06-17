@@ -1,0 +1,280 @@
+[13-Jan-2022 18:36:07 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 18:36:07 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 18:36:22 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 18:36:22 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 15:36:22 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 15:36:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 19:03:44 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:03:44 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlundefinedconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:27:53 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:27:53 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 16:27:53 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 16:27:53 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 19:30:17 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:30:17 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 16:30:17 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 16:30:17 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 19:35:13 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:35:13 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:35:17 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:35:17 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:36:06 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:36:06 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:36:10 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:36:10 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:37:33 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:37:33 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:37:37 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:37:37 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlMaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 16:37:37 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 16:37:37 America/Sao_Paulo] PHP Fatal error:  Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 35
+[13-Jan-2022 19:47:32 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:47:32 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:47:52 UTC] PHP Warning:  include_once(/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:47:52 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_htmlleusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:49:37 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:49:37 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:21 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:21 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:25 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:25 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:39 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:50:39 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:51 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:51 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:56 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:56 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:57 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:57 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:57:58 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:58:33 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:58:33 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:59:41 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:59:41 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:59:43 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 19:59:43 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:13 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:13 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:15 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:15 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:15 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:15 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:16 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:16 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:16 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:16 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:17 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:17 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:18 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:18 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:18 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:18 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:19 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:19 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:20 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:20 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:53 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:00:53 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:02 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:02 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:08 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:08 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:09 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:10 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:03:10 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:06 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:06 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:11 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:11 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:13 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:04:13 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/MaxComandaconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 17:06:04 America/Sao_Paulo] PHP Notice:  Undefined index: login in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 21
+[13-Jan-2022 17:06:04 America/Sao_Paulo] PHP Notice:  Undefined index: password in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 22
+[13-Jan-2022 17:06:57 America/Sao_Paulo] PHP Notice:  Undefined index: password in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 22
+[13-Jan-2022 20:08:29 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 20:08:29 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/leusconexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 15
+[13-Jan-2022 17:21:54 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:21:57 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:21:59 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:22:09 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:22:10 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:38:27 America/Sao_Paulo] PHP Notice:  Undefined variable: email in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 33
+[13-Jan-2022 17:44:12 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: missing ) at offset 66 in /home/maxcomanda/public_html/leus/conexao-pdo/conexao-mysql-pdo.php on line 29
+[14-Jan-2022 09:11:53 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$nome_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[14-Jan-2022 09:11:54 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$nome_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[14-Jan-2022 09:12:07 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$nome_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[14-Jan-2022 09:12:10 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$nome_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[14-Jan-2022 09:13:04 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$nome_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 48
+[14-Jan-2022 09:20:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.nome_razao_social' in 'field list'' in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:41
+Stack trace:
+#0 /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 41
+[27-Jan-2022 09:53:57 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:54:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:54:54 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:54:56 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:54:57 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:54:59 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:55:00 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[27-Jan-2022 09:55:01 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$name_razao_social in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 47
+[04-Feb-2022 09:13:06 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:13:10 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:13:10 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:13:45 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:15:22 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:16:56 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:30 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:32 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:36 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:37 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:37 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:42 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:42 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:43 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:43 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 09:25:43 America/Sao_Paulo] PHP Notice:  Undefined property: stdClass::$img in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 60
+[04-Feb-2022 15:40:24 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 689
+[04-Feb-2022 15:40:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 430
+[04-Feb-2022 15:40:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 480
+[04-Feb-2022 15:40:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 492
+[04-Feb-2022 15:40:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_user in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 497
+[04-Feb-2022 15:50:08 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 15:50:35 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 15:51:29 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 15:53:22 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 15:56:13 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 16:00:29 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 16:01:31 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 16:43:50 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 16:44:46 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 17:08:23 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 17:08:54 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 17:22:12 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[04-Feb-2022 18:57:16 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 690
+[05-Feb-2022 08:57:26 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 696
+[05-Feb-2022 11:02:53 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 696
+[05-Feb-2022 12:27:20 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 696
+[05-Feb-2022 13:28:45 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/MaxComanda/uploads/userImage/): Is a directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 300
+[05-Feb-2022 13:30:51 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/MaxComanda/uploads/userImage/): Is a directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 300
+[05-Feb-2022 13:33:23 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/MaxComanda/uploads/userImage/61fea65f08ff9.jpg): No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 300
+[05-Feb-2022 13:34:22 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 701
+[07-Feb-2022 08:38:59 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 701
+[07-Feb-2022 08:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 08:46:47 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 08:47:12 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 08:51:24 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 08:56:09 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 08:58:02 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 704
+[07-Feb-2022 08:59:14 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 704
+[07-Feb-2022 09:12:32 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:12:48 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:18:46 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:29:26 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:30:40 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:57:03 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:59:16 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 09:59:37 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 10:01:30 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 10:01:41 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 703
+[07-Feb-2022 10:09:08 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 11:53:01 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 11:53:53 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 14:54:23 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 14:54:23 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 11:54:23 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 11:54:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 13:52:07 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 14:23:17 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 14:24:05 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 14:42:55 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 17:43:11 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 17:43:11 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 14:43:11 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 14:43:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 17:43:34 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 17:43:34 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 14:43:34 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 14:43:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 14:44:22 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 14:45:19 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/coffeebeer/uploads/userImage/): Is a directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 308
+[07-Feb-2022 14:45:25 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 17:51:19 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 17:51:19 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 14:51:19 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 14:51:19 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 18:01:55 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 18:01:55 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 15:01:55 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 15:01:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 18:21:59 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 18:21:59 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 15:21:59 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 15:21:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 15:51:02 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 15:54:34 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 16:33:02 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 16:36:26 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 16:39:13 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 16:40:57 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 16:41:12 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 18:08:59 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 18:10:05 America/Sao_Paulo] PHP Warning:  unlink(/home/maxcomanda/public_html/coffeebeer/uploads/userImage/): Is a directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 308
+[07-Feb-2022 18:10:11 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 21:13:12 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 21:13:12 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 18:13:12 America/Sao_Paulo] PHP Notice:  Undefined variable: pdo in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 18:13:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:708
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 708
+[07-Feb-2022 18:13:56 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 709
+[07-Feb-2022 18:27:05 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 711
+[07-Feb-2022 18:30:13 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 711
+[07-Feb-2022 18:31:11 America/Sao_Paulo] PHP Notice:  Undefined index: id_company in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 711
+[07-Feb-2022 22:08:36 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 22:08:36 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[07-Feb-2022 19:08:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:710
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 710
+[08-Feb-2022 11:44:17 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[08-Feb-2022 11:44:17 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[08-Feb-2022 08:44:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:710
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 710
+[08-Feb-2022 11:44:20 UTC] PHP Warning:  include_once(/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php): failed to open stream: No such file or directory in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[08-Feb-2022 11:44:20 UTC] PHP Warning:  include_once(): Failed opening '/home/maxcomanda/public_html/undefined/conexao-pdo/conexao-mysql-pdo.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 19
+[08-Feb-2022 08:44:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php:710
+Stack trace:
+#0 {main}
+  thrown in /home/maxcomanda/public_html/MaxComanda/model/user/user-model.php on line 710
