@@ -59,3 +59,4 @@ function listQuestions() {
         }
     });
 }
+// *************************** FIM - LISTAR PERGUNTAS - BRUNO R. BERNAL - 10/06/2022 ********************************

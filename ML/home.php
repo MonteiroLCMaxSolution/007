@@ -42,7 +42,6 @@ switch ($pg) {
         $arquivosJS = ['js/orders/orders.js'];
         break;
 
-
     default: //BRUNO R. BERNAL - 08/06/2022
         $linkPagina = 'controller/home/home.php';
         break;
