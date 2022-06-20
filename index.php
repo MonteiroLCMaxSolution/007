@@ -21,7 +21,7 @@ $jsondata = file_get_contents("http://timezoneapi.io/api/ip/?" . $ip_address);
 
 // Decode
 $data = json_decode($jsondata, true);
-eco $data;
+echo $data;
 // Request OK?
 if($data['meta']['code'] == '200'){
 
